@@ -1,0 +1,17 @@
+{
+	"name" : "More Heroes",
+	"description" : "New classes and heroes",
+	"author" : "Fiorin",
+	"contact" : "http://fior.in",
+	"version" : "0.1",
+	"modType" : "Heroes",
+	"heroClasses" : [
+		
+	],
+	"heroes" : [
+		"config/heroes/ruins/balor.json"
+	],
+	"depends" : [
+		"tok.more creatures"
+	]
+}

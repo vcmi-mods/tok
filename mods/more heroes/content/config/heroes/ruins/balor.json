@@ -1,0 +1,39 @@
+{
+	"h_balor" : {
+		"army" : [
+			{ "creature" : "cr_wendigo", "max" : 15, "min" : 12 },
+			{ "creature" : "cr_shaman", "max" : 33, "min" : 25 },
+			{ "creature" : "firstAidTent", "max" : 1, "min" : 1 }
+		],
+		"female": false,
+		"class" : "ranger",
+		"spellbook" : [ "cure" ],
+		"images" : {
+			"large" : "heroes/ruins/balor_l.bmp",
+			"small" : "heroes/ruins/balor_s.bmp",
+			"specialtyLarge" : "heroes/ruins/balor_sl.bmp",
+			"specialtySmall" : "heroes/ruins/balor_ss.bmp"
+		},
+		"skills" : [
+			{ "level" : "advanced", "skill" : "pathfinding" }
+		],
+		"specialty" : { 
+			"bonuses" : { 
+				"lumber": {
+					"type" : "GENERATE_RESOURCE", 
+					"subtype" : "resource.wood", 
+					"val" : 2 
+				}
+			} 
+		},
+		"texts" : {
+			"biography" : "",
+			"name" : "Balor",
+			"specialty" : {
+				"description" : "+2 Wood each day",
+				"name" : "+2 wood",
+				"tooltip" : "{Wood}\r\n\r\nIncreases kingdom's wood production by 2 per day."
+			}
+		}
+	}
+}
