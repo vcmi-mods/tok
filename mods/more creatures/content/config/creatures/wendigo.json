@@ -31,7 +31,7 @@
 		"damage" :
 		{
 			"min" : 11,
-			"max" : 18
+			"max" : 19
 		},
 		"spellPoints" : 0,
 		"advMapAmount" :
@@ -65,8 +65,7 @@
 			{
 				"walk" : 1.00,
 				"idle" : 10.00,
-				"attack" : 1.00,
-				"flight" : 1.00
+				"attack" : 1.00
 			}
 		},
 		"sound" : 

@@ -1,0 +1,44 @@
+{
+	"h_myra" : {
+		"army" : [
+			{ "creature" : "firstAidTent", "max" : 1, "min" : 1 },
+			{ "creature" : "cr_gnome", "max" : 33, "min" : 25 },
+			{ "creature" : "cr_gnome", "max" : 15, "min" : 12 }
+		],
+		"female": true,
+		"class" : "druid",
+		//"battleImage" : "heroes/ruins/myra.def",
+		"spellbook" : [ "cure" ],
+		"images" : {
+			"large" : "heroes/ruins/myra_l.bmp",
+			"small" : "heroes/ruins/myra_s.bmp",
+			"specialtyLarge" : "heroes/ruins/myra_sl.bmp",
+			"specialtySmall" : "heroes/ruins/myra_ss.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "firstAid" },
+			{ "level" : "basic", "skill" : "earthMagic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"firstAid" : {
+					"subtype" : "core:spell.firstAid",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPECIFIC_SPELL_POWER",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "Myra learned from her mother the efficiency of plants to feed her siblings, heal the wounds and even eliminate those who threaten you. Today, she knows how to do it, and she did it more than once.",
+			"name" : "Myra",
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: First Aid",
+				"name" : "First Aid",
+				"description" : "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill percentage."
+			}
+		}
+	}
+}

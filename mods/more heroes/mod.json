@@ -3,13 +3,18 @@
 	"description" : "New classes and heroes",
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
-	"version" : "0.1",
+	"version" : "0.2",
 	"modType" : "Heroes",
 	"heroClasses" : [
 		
 	],
 	"heroes" : [
-		"config/heroes/ruins/balor.json"
+		"config/heroes/ruins/balor.json",
+		"config/heroes/ruins/horae.json",
+		"config/heroes/ruins/huldra.json",
+		"config/heroes/ruins/mabon.json",
+		"config/heroes/ruins/myra.json",
+		"config/heroes/ruins/mogh.json"
 	],
 	"depends" : [
 		"tok.more creatures"

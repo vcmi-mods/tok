@@ -1,8 +1,8 @@
 {
 	"h_balor" : {
 		"army" : [
-			{ "creature" : "cr_wendigo", "max" : 15, "min" : 12 },
-			{ "creature" : "cr_shaman", "max" : 33, "min" : 25 },
+			{ "creature" : "cr_gnome", "max" : 15, "min" : 12 },
+			{ "creature" : "cr_plaguedoctor", "max" : 33, "min" : 25 },
 			{ "creature" : "firstAidTent", "max" : 1, "min" : 1 }
 		],
 		"female": false,
@@ -27,12 +27,12 @@
 			} 
 		},
 		"texts" : {
-			"biography" : "",
+			"biography" : "A giant lumberjack hiding in his cabin at the foot of the great mountain. Balor only watches the travelers, but doesn't want become friendly with anyone.",
 			"name" : "Balor",
 			"specialty" : {
-				"description" : "+2 Wood each day",
+				"tooltip" : "+2 Wood each day",
 				"name" : "+2 wood",
-				"tooltip" : "{Wood}\r\n\r\nIncreases kingdom's wood production by 2 per day."
+				"description" : "{Wood}\r\n\r\nIncreases kingdom's wood production by 2 per day."
 			}
 		}
 	}

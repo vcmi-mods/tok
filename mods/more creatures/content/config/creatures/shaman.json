@@ -6,7 +6,7 @@
 			"singular" : "Shaman",
 			"plural" : "Shamans"
 		},
-		"level" : 2,
+		"level" : 3,
 		"special" : false,
 		"faction" : "neutral", 
 		"cost" : 
@@ -17,21 +17,21 @@
 			"sulfur" : 0,
 			"crystal" : 0,
 			"gems" : 0,
-			"gold" : 530
+			"gold" : 250
 		},
-		"fightValue" : 752,
-		"aiValue" : 740,
-		"growth" : 3,
+		"fightValue" : 220,
+		"aiValue" : 200,
+		"growth" : 7,
 		
-		"attack" : 3,
-		"defense" : 4,
-		"hitPoints" : 12,
+		"attack" : 5,
+		"defense" : 8,
+		"hitPoints" : 25,
 		"shots" : 0,
 		"speed" : 6,
 		"damage" :
 		{
-			"min" : 1,
-			"max" : 2
+			"min" : 5,
+			"max" : 6
 		},
 		"spellPoints" : 0,
 		"advMapAmount" :
@@ -63,8 +63,7 @@
 			{
 				"walk" : 1.00,
 				"idle" : 10.00,
-				"attack" : 1.00,
-				"flight" : 1.00
+				"attack" : 1.00
 			}
 		},
 		"sound" : 

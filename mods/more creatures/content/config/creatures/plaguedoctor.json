@@ -1,0 +1,99 @@
+{
+	"cr_plaguedoctor" : 
+	{
+		"name" :
+		{
+			"singular" : "Plague Doctor",
+			"plural" : "Plague Doctor"
+		},
+		"level" : 4,
+		"special" : false,
+		"faction" : "neutral", 
+		"cost" : 
+		{
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 300
+		},
+		"fightValue" : 410,
+		"aiValue" : 320,
+		"growth" : 5,
+		
+		"attack" : 10,
+		"defense" : 7,
+		"hitPoints" : 28,
+		"shots" : 0,
+		"speed" : 5,
+		"damage" :
+		{
+			"min" : 5,
+			"max" : 8
+		},
+		"spellPoints" : 50,
+		"advMapAmount" :
+		{
+			"min" : 10,
+			"max" : 20
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 400
+			},
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"cure" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.cure",
+				"val" : 3
+			},
+			"plague" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.deathRipple",
+				"val" : 3
+			},
+			"immunity" :
+			{
+				"subtype" : "spell.deathRipple",
+				"type" : "SPELL_IMMUNITY",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"hasDoubleWeek": true,
+		"graphics" :
+		{
+			"animation" : "creatures/plaguedoctor/battle.def",
+			"map" : "creatures/plaguedoctor/adventure.def",
+			"iconSmall" : "creatures/plaguedoctor/icon.bmp",
+			"iconLarge" : "creatures/plaguedoctor/portrait.bmp",
+			"timeBetweenFidgets" : 1.00,
+			"troopCountLocationOffset" : 0,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : 
+		{
+			"attack": "BTREATTK.wav",
+			"defend": "BTREDFND.wav",
+			"killed": "BTREKILL.wav",
+			"move": "BTREMOVE.wav",
+			"wince": "BTREWNCE.wav"
+		}
+	}
+}

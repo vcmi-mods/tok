@@ -3,15 +3,15 @@
 	"description" : "Creatures added to the core game.",
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
-	"version" : "0.1",
+	"version" : "0.2",
 	"modType" : "Creatures",	
 	"creatures" : [
-		"config/creatures/wendigo.json",
-		"config/creatures/shaman.json",
-		//"config/creatures/firbolg.json",
-		//"config/creatures/plaguedoctor.json"
+		"config/creatures/wendigo",
+		"config/creatures/shaman",
+		"config/creatures/gnome",
+		"config/creatures/plaguedoctor"
 	],
 	"objects" : [ 
-		
+		"config/creatures/dwellings"
 	]
 }

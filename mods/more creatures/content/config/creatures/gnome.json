@@ -1,0 +1,92 @@
+{
+	"cr_gnome" : 
+	{
+		"name" :
+		{
+			"singular" : "Gnome",
+			"plural" : "Gnomes"
+		},
+		"level" : 1,
+		"special" : false,
+		"faction" : "neutral", 
+		"cost" : 
+		{
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 42
+		},
+		"fightValue" : 50,
+		"aiValue" : 58,
+		"growth" : 14,
+		
+		"attack" : 4,
+		"defense" : 3,
+		"hitPoints" : 4,
+		"shots" : 13,
+		"speed" : 6,
+		"damage" :
+		{
+			"min" : 1,
+			"max" : 3
+		},
+		"spellPoints" : 50,
+		"advMapAmount" :
+		{
+			"min" : 18,
+			"max" : 48
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"mirror" : 
+			{
+				"type" : "MAGIC_MIRROR",
+				"val" : 75
+			}
+		},
+		"hasDoubleWeek": true,
+		"graphics" :
+		{
+			"animation" : "creatures/gnome/battle.def",
+			"map" : "creatures/gnome/adventure.def",
+			"iconSmall" : "creatures/gnome/icon.bmp",
+			"iconLarge" : "creatures/gnome/portrait.bmp",
+			"timeBetweenFidgets" : 1.00,
+			"troopCountLocationOffset" : 0,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" : {
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				},
+				"projectile" : "projectiles/missile.def"
+			}
+		},
+		"sound" : 
+		{
+			"attack": "BTREATTK.wav",
+			"defend": "BTREDFND.wav",
+			"killed": "BTREKILL.wav",
+			"move": "BTREMOVE.wav",
+			"wince": "BTREWNCE.wav"
+		}
+	}
+}

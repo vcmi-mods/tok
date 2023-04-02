@@ -1,0 +1,31 @@
+{
+	"h_mogh" : {
+		"army" : [
+			{ "creature" : "cr_gnome", "max" : 24, "min" : 12 },
+			{ "creature" : "cr_gnome", "max" : 24, "min" : 12 },
+			{ "creature" : "cr_gnome", "max" : 6, "min" : 3 }
+		],
+		"class" : "druid",
+		"images" : {
+			"large" : "heroes/ruins/mogh_l.bmp",
+			"small" : "heroes/ruins/mogh_s.bmp",
+			"specialtyLarge" : "heroes/ruins/mogh_sl.bmp",
+			"specialtySmall" : "heroes/ruins/mogh_ss.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "wisdom" },
+			{ "level" : "expert", "skill" : "earthMagic" }
+		],
+		"specialty" : {
+		},
+		"texts" : {
+			"biography" : "todo",
+			"name" : "Mogh",
+			"specialty" : {
+				"description" : "{Earth Magic}\r\nStarts with Expert Earth Magic",
+				"name" : "Earth Magic",
+				"tooltip" : "Exp Earth Magic"
+			}
+		}
+	}
+}
