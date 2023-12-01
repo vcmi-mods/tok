@@ -60,7 +60,6 @@
 			"iconSmall" : "creatures/wendigo/icon.bmp",
 			"iconLarge" : "creatures/wendigo/portrait.bmp",
 			"timeBetweenFidgets" : 2.00,
-			"troopCountLocationOffset" : 0,
 			"animationTime" :
 			{
 				"walk" : 1.00,

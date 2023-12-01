@@ -79,7 +79,6 @@
 			"iconSmall" : "creatures/plaguedoctor/icon.bmp",
 			"iconLarge" : "creatures/plaguedoctor/portrait.bmp",
 			"timeBetweenFidgets" : 1.00,
-			"troopCountLocationOffset" : 0,
 			"animationTime" :
 			{
 				"walk" : 1.00,
