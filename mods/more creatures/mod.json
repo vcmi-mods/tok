@@ -3,15 +3,23 @@
 	"description" : "Creatures added to the core game.",
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
-	"version" : "0.2",
+	"version" : "0.4",
 	"modType" : "Creatures",	
+	"changelog" :
+	{
+		"0.1" : ["Initial release"],
+		"0.2" : ["Four more heroes added", "Update to vcmi-1.2"],
+		"0.3" : ["Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"],
+		"0.4" : ["Loxodon added"]
+	}, 
 	"creatures" : [
 		"config/creatures/wendigo",
 		"config/creatures/shaman",
 		"config/creatures/gnome",
-		"config/creatures/plaguedoctor"
+		"config/creatures/plaguedoctor",
+		"config/creatures/loxodon"
 	],
 	"objects" : [ 
-		"config/creatures/dwellings"
+		"config/dwellings"
 	]
 }

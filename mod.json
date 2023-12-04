@@ -1,15 +1,16 @@
 {
-	"name" : "Tok",
+	"name" : "tok | Extras",
 	"description" : "New classes, heroes & graphics improvements",
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
-	"version" : "0.3",
+	"version" : "1.0.0",
 	"modType" : "Creatures",
 	"changelog" :
 	{
 		"0.1" : ["Initial release"],
-		"0.2" : ["Two new creatures added", "Four more heroes added", "Update to vcmi-1.2"],
-		"0.3" : ["Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"]
+		"0.2" : ["Update to vcmi-1.2"],
+		"0.3" : ["Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"],
+		"1.0" : ["Mod compilation"]
 	}, 
 	"chinese" : {
 		"name" : "Tok",
