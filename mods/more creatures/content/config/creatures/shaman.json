@@ -58,7 +58,6 @@
 			"iconSmall" : "creatures/shaman/icon.bmp",
 			"iconLarge" : "creatures/shaman/portrait.bmp",
 			"timeBetweenFidgets" : 2.00,
-			"troopCountLocationOffset" : 0,
 			"animationTime" :
 			{
 				"walk" : 1.00,

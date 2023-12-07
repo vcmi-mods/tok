@@ -59,7 +59,6 @@
 			"iconSmall" : "creatures/gnome/icon.bmp",
 			"iconLarge" : "creatures/gnome/portrait.bmp",
 			"timeBetweenFidgets" : 1.00,
-			"troopCountLocationOffset" : 0,
 			"animationTime" :
 			{
 				"walk" : 1.00,
