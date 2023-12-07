@@ -56,6 +56,9 @@
 				"subtype" : "cr_gnome",
 				"val" : 50
 			},
+			"return": {
+				"type": "RETURN_AFTER_STRIKE"
+			},
 			"spellPower" : 
 			{
 				"type" : "CREATURE_ENCHANT_POWER",
