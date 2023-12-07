@@ -1,33 +1,50 @@
 {
-	"h_balor" : {
-		"army" : [
-			{ "creature" : "cr_gnome", "max" : 15, "min" : 12 },
-			{ "creature" : "cr_plaguedoctor", "max" : 33, "min" : 25 },
-			{ "creature" : "firstAidTent", "max" : 1, "min" : 1 }
+	"rn_balor": {
+		"army": [
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 20
+			},
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 20
+			},
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 20
+			}
 		],
-		"female": false,
-		"class" : "ranger",
-		"spellbook" : [ "cure" ],
-		"images" : {
-			"large" : "heroes/ruins/balor_l.bmp",
-			"small" : "heroes/ruins/balor_s.bmp",
-			"specialtyLarge" : "heroes/ruins/balor_sl.bmp",
-			"specialtySmall" : "heroes/ruins/balor_ss.bmp"
+		"class": "rn_might",
+		"images": {
+			"large": "heroes/ruins/balor/large.bmp",
+			"small": "heroes/ruins/balor/small.bmp",
+			"specialtyLarge": "heroes/ruins/balor/slarge.bmp",
+			"specialtySmall": "heroes/ruins/balor/ssmall.bmp"
 		},
-		"skills" : [
-			{ "level" : "advanced", "skill" : "pathfinding" }
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "scouting"
+			},
+			{
+				"level": "basic",
+				"skill": "pathfinding"
+			}
 		],
-		"specialty" : { 
+		"specialty": {
 			"bonuses" : { 
 				"lumber": {
 					"type" : "GENERATE_RESOURCE", 
 					"subtype" : "resource.wood", 
 					"val" : 2 
 				}
-			} 
+			}
 		},
-		"texts" : {
-			"biography" : "A giant lumberjack hiding in his cabin at the foot of the great mountain. Balor only watches the travelers, but doesn't want become friendly with anyone.",
+		"texts": {
+			"biography": "A giant lumberjack hiding in his cabin at the foot of the great mountain. Balor only watches the travelers, but doesn't want become friendly with anyone.",
 			"name" : "Balor",
 			"specialty" : {
 				"tooltip" : "+2 Wood each day",
