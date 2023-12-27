@@ -1,0 +1,33 @@
+{
+	"h_elena" : {
+		"army" : [
+			{ "creature" : "pikeman", "max" : 25, "min" : 20 },
+			{ "creature" : "pikeman", "max" : 25, "min" : 20 },
+			{ "creature" : "halberdier", "max" : 15, "min" : 10 }
+		],
+		"female": true,
+		"class" : "knight",
+		"images" : {
+			"large" : "heroes/castle/elena_l.bmp",
+			"small" : "heroes/castle/elena_s.bmp",
+			"specialtyLarge" : "heroes/castle/elena_sl.bmp",
+			"specialtySmall" : "heroes/castle/elena_ss.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "leadership" },
+			{ "level" : "basic", "skill" : "diplomacy" }
+		],
+		"specialty" : {
+			"creature" : "pikeman"
+		},
+		"texts" : {
+			"biography" : "",
+			"name" : "Elena",
+			"specialty" : {
+				"description" : "{Pikeman}\n",
+				"name" : "Pikeman",
+				"tooltip" : ""
+			}
+		}
+	}
+}

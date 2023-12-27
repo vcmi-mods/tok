@@ -1,0 +1,76 @@
+{
+	"hc_mystic": {
+		"animation": {
+			"battle": {
+				"female": "classes/mystic/female.def",
+				"male": "classes/mystic/male.def"
+			}
+		},
+		"mapObject": {
+			"templates": {
+				"default": {
+					"animation": "classes/mystic/adventure.def",
+					"editorAnimation": "classes/mystic/editor.def"
+				}
+			}
+		},
+		"name": "Mystic",
+		"faction": "neutral",
+		"commander": "enchanter",
+		"affinity": "magic",
+		"primarySkills": {
+			"attack": 0,
+			"defence": 1,
+			"spellpower": 3,
+			"knowledge": 2
+		},
+		"lowLevelChance": {
+			"attack": 10,
+			"defence": 20,
+			"spellpower": 40,
+			"knowledge": 30
+		},
+		"highLevelChance": {
+			"attack": 20,
+			"defence": 20,
+			"spellpower": 30,
+			"knowledge": 30
+		},
+		"secondarySkills": {
+			"wisdom": 8,
+			"mysticism": 7,
+			"sorcery": 7,
+
+			"learning": 6,
+			"intelligence": 6,
+			"scholar": 6,
+			"eagleEye": 6,
+
+			"resistance": 5,
+			"firstAid": 5,
+			"luck": 5,
+
+			"fireMagic": 4,
+			"earthMagic": 4,
+			"airMagic": 4,
+			"waterMagic": 4,
+
+			"pathfinding": 2,
+			"scouting": 2,
+			"logistics": 2,
+			"tactics": 1,
+			"armorer": 1,
+			"archery": 1,
+			"leadership": 1,
+			"artillery": 1,
+			"ballistics": 1,
+
+			"estates": 0,
+			"offence": 0,
+			"navigation": 0,
+			"necromancy": 0
+		},
+		"defaultTavern": 3,
+		"tavern": {}
+	}
+}

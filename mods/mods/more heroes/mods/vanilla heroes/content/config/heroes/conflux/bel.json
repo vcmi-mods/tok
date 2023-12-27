@@ -1,0 +1,40 @@
+{
+	"h_bel" : {
+		"army" : [
+			{ "creature" : "fireElemental", "max" : 10, "min" : 5 },
+			{ "creature" : "fireElemental", "max" : 10, "min" : 5 },
+			{ "creature" : "fireElemental", "max" : 10, "min" : 5 }
+		],
+		"class" : "elementalist",
+		"spellbook": [
+			"fireElemental"
+		],
+		"images" : {
+			"large" : "heroes/conflux/bel_l.png",
+			"small" : "heroes/conflux/bel_s.png",
+			"specialtyLarge" : "heroes/conflux/bel_sl.png",
+			"specialtySmall" : "heroes/conflux/bel_ss.png"
+		},
+		"skills" : [
+			{ "level" : "advanced", "skill" : "fireMagic" }
+		],
+		"specialty": {
+			"bonuses": {
+				"maxEarthElemental": {
+					"addInfo": 3,
+					"subtype": "spell.fireElemental",
+					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "",
+			"name" : "Bel",
+			"specialty" : {
+				"description" : "{Fire Elemental}\n",
+				"name" : "Fire Elemental",
+				"tooltip" : ""
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"name": "More Heroes",
+	"description": "New heroes",
+	"author": "Fiorin",
+	"contact": "https://fior.in",
+	"version": "1.0.0",
+	"modType": "Heroes",
+	"compatibility": {
+		"min": "1.4.0"
+	}
+}

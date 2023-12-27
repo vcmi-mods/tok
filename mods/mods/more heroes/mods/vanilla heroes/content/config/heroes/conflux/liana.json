@@ -1,0 +1,51 @@
+{
+	"h_liana": {
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 2,
+				"max" : 3
+			}
+		],
+		"female": true,
+		"class": "planeswalker",
+		"images": {
+			"large" : "heroes/conflux/liana_l.png",
+			"small" : "heroes/conflux/liana_s.png",
+			"specialtyLarge" : "heroes/conflux/liana_sl.png",
+			"specialtySmall" : "heroes/conflux/liana_ss.png"
+		},
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "tactics"
+			},
+			{
+				"level": "basic",
+				"skill": "scouting"
+			}
+		],
+		"specialty": {
+			"creature": "pixie"
+		},
+		"texts": {
+			"biography": "",
+			"name": "Liana",
+			"specialty": {
+				"description": "{Pixie}\r\n\r\nIncreases Speed of any Pixie and Sprites by 1 and their Attack and Defense skills by 5% for every level.",
+				"name": "Pixie",
+				"tooltip": "Creature bonus: Pixie"
+			}
+		}
+	}
+}

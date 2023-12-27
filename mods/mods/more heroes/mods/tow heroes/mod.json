@@ -1,0 +1,15 @@
+{
+	"name" : "More ToW Heroes",
+	"description" : "Add more heroes with ToW dependency",
+	"author" : "Fiorin",
+	"contact" : "http://fior.in",
+	"version" : "1.0,0",
+	"modType" : "Heroes",
+	"keepDisabled" : true,
+	"depends" : [ 
+		"tides-of-war",
+		"tides-of-war.skills"
+	],
+	"heroes" : [
+	]
+}

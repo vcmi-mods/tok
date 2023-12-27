@@ -1,0 +1,80 @@
+{
+	"hc_explorer": {
+		"animation": {
+			"battle": {
+				"female": "classes/explorer/female.def",
+				"male": "classes/explorer/male.def"
+			}
+		},
+		"mapObject": {
+			"templates": {
+				"default": {
+					"animation": "classes/explorer/adventure.def",
+					"editorAnimation": "ruins/classes/explorer/editor.def"
+				}
+			}
+		},
+		"name": "Explorer",
+		"faction": "neutral",
+		"commander": "nomad",
+		"affinity": "might",
+		"primarySkills": {
+			"attack": 2,
+			"defence": 2,
+			"spellpower": 1,
+			"knowledge": 1
+		},
+		"lowLevelChance": {
+			"attack": 35,
+			"defence": 35,
+			"spellpower": 15,
+			"knowledge": 15
+		},
+		"highLevelChance": {
+			"attack": 25,
+			"defence": 25,
+			"spellpower": 25,
+			"knowledge": 25
+		},
+		"secondarySkills": {
+			"scouting": 9,
+
+			"pathfinding": 8,
+			"logistics": 8,
+
+			"offence": 7,
+			"archery": 7,
+			"tactics": 7,
+			"armorer": 7,
+
+			"artillery": 6,
+			"ballistics": 6,
+
+			"estates": 5,
+			"luck": 5,
+
+			"resistance": 4,
+
+			"firstAid": 3,
+			"navigation": 3,
+
+			"leadership": 2,
+			"learning": 2,
+			"intelligence": 2,
+			"scholar": 2,
+
+			"wisdom": 1,
+			"mysticism": 1,
+			"eagleEye": 1,
+			"sorcery": 1,
+
+			"earthMagic": 0,
+			"airMagic": 0,
+			"waterMagic": 0,
+			"fireMagic": 0,
+			"necromancy": 0
+		},
+		"defaultTavern": 3,
+		"tavern": {}
+	}
+}

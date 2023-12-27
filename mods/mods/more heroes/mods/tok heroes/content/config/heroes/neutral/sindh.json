@@ -1,0 +1,34 @@
+{
+	"h_sindh" : {
+		"army" : [
+			{ "creature" : "cr_monk_loxodon", "max" : 2, "min" : 1 },
+			{ "creature" : "firstAidTent", "max" : 1, "min" : 1 }
+		],
+		"class" : "hc_mystic",
+		"spellbook": [
+			"forgetfulness"
+		],
+		"images" : {
+			"large" : "heroes/neutral/sindh_l.bmp",
+			"small" : "heroes/neutral/sindh_s.bmp",
+			"specialtyLarge" : "heroes/neutral/sindh_sl.png",
+			"specialtySmall" : "heroes/neutral/sindh_ss.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "wisdom" },
+			{ "level" : "basic", "skill" : "firstAid" }
+		],
+		"specialty": {
+			"creature": "cr_monk_loxodon"
+		},
+		"texts" : {
+			"biography" : "Sindh, hailing from the realms of Erathia, wields the Bhuj with mastery. Leading Loxodons, he defends with honor and heals with ancient wisdom. As a neutral force, Sindh's legacy shapes the history.",
+			"name" : "Sindh",
+			"specialty" : {
+				"description" : "{Loxodon}\n\nIncreases Speed of any Loxodon by 1 and their Attack and Defense skills by 5% for every 6 level.",
+				"name" : "Loxodon",
+				"tooltip": "Creature bonus: Loxodon"
+			}
+		}
+	}
+}

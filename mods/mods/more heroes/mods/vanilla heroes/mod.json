@@ -1,0 +1,20 @@
+{
+	"name" : "More Vanilla Heroes",
+	"description" : "Add more heroes with no further dependencies",
+	"author" : "Fiorin",
+	"contact" : "http://fior.in",
+	"version" : "1.0,0",
+	"modType" : "Heroes",
+	"keepDisabled" : false,
+	"heroes" : [
+		"config/heroes/castle/agatha.json", // angel
+		"config/heroes/castle/elena.json", // pikeman
+
+		"config/heroes/conflux/eordan.json", // earth elemental
+		"config/heroes/conflux/auris.json", // air elemental
+		"config/heroes/conflux/hana.json", // water elemental
+		"config/heroes/conflux/bel.json", // fire elemental
+		"config/heroes/conflux/pandora.json", // phoenix
+		"config/heroes/conflux/liana.json", // pixie
+	]
+}

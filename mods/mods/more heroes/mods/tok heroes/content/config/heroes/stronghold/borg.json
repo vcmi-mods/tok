@@ -1,0 +1,56 @@
+{
+	"h_borg": {
+		"army": [
+			{
+				"creature": "goblin",
+				"max": 25,
+				"min": 20
+			},
+			{
+				"creature": "goblin",
+				"max": 25,
+				"min": 20
+			},
+			{
+				"creature": "goblinWolfRider",
+				"max": 5,
+				"min": 10
+			}
+		],
+		"class": "battlemage",
+		"images": {
+			"large": "heroes/stronghold/borg_l.bmp",
+			"small": "heroes/stronghold/borg_s.bmp",
+			"specialtyLarge": "heroes/stronghold/borg_sl.bmp",
+			"specialtySmall": "heroes/stronghold/borg_ss.bmp"
+		},
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "wisdom"
+			},
+			{
+				"level": "basic",
+				"skill": "fireMagic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"maxQuicksand": {
+					"addInfo": 3,
+					"subtype": "spell.landMine",
+					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
+				}
+			}
+		},
+		"texts": {
+			"biography": "",
+			"name" : "Borg",
+			"specialty": {
+				"description": "",
+				"name": "Landmine",
+				"tooltip": "Landmine"
+			}
+		}
+	}
+}

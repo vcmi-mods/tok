@@ -1,0 +1,63 @@
+{
+	"h_gnarlah": {
+		"army": [
+			{
+				"creature": "goblin",
+				"max": 25,
+				"min": 20
+			},
+			{
+				"creature": "orc",
+				"max": 6,
+				"min": 4
+			},
+			{
+				"creature": "cr_bugbear",
+				"max": 5,
+				"min": 3
+			}
+		],
+		"class": "battlemage",
+		"images": {
+			"large": "heroes/stronghold/gnarlah_l.png",
+			"small": "heroes/stronghold/gnarlah_s.png",
+			"specialtyLarge": "heroes/stronghold/gnarlah_sl.png",
+			"specialtySmall": "heroes/stronghold/gnarlah_ss.png"
+		},
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "wisdom"
+			},
+			{
+				"level": "basic",
+				"skill": "tactics"
+			}
+		],
+		"specialty": {
+			"attack" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defense",
+				"limiters" : { "parameters" : [ "cr_bugbear", false ] },
+				"updater" : {
+					"type" : "GROWS_WITH_LEVEL",
+					"parameters" : [ 18, 4 ]
+				}
+			},
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : 2,
+				"limiters" : { "parameters" : [ "cr_bugbear", true ] }
+			}
+		},
+		"texts": {
+			"biography": "Gnarlah, the wise Bugbear, gained empathic insight in battle. Born in the untamed wild, her appearance conceals a paradox of intelligence and ruthlessness, embodying the essence of a smart and deadly warrior.",
+			"name" : "Gnarlah",
+			"specialty": {
+				"description": "{Bugbear}\r\n\r\nIncreases Speed of any Bugbear by 2 and their Defense skills by 10% for every 4 level.",
+				"name": "Bugbear",
+				"tooltip": "Creature bonus: Bugbear"
+			}
+		}
+	}
+}
