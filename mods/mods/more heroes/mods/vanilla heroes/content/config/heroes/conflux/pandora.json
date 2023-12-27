@@ -1,0 +1,51 @@
+{
+	"h_pandora": {
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 2,
+				"max" : 3
+			}
+		],
+		"female": true,
+		"class": "planeswalker",
+		"images": {
+			"large" : "heroes/conflux/pandora_l.png",
+			"small" : "heroes/conflux/pandora_s.png",
+			"specialtyLarge" : "heroes/conflux/pandora_sl.png",
+			"specialtySmall" : "heroes/conflux/pandora_ss.png"
+		},
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "offence"
+			},
+			{
+				"level": "basic",
+				"skill": "fireMagic"
+			}
+		],
+		"specialty": {
+			"creature": "firebird"
+		},
+		"texts": {
+			"biography": "",
+			"name": "Pandora",
+			"specialty": {
+				"description": "{Phoenix}\r\n\r\nIncreases Speed of any Firebird and Phoenix by 1 and their Attack and Defense skills by 5% for every 7 level.",
+				"name": "Phoenix",
+				"tooltip": "Creature bonus: Phoenix"
+			}
+		}
+	}
+}

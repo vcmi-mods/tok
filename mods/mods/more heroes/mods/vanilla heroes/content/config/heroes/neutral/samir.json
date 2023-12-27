@@ -1,0 +1,32 @@
+{
+	"h_samir" : {
+		"army" : [
+			{ "creature" : "rogue", "max" : 15, "min" : 8 },
+			{ "creature" : "nomad", "max" : 5, "min" : 2 },
+			{ "creature" : "nomad", "max" : 5, "min" : 2 }
+		],
+		"class" : "explorer",
+		"images" : {
+			"large" : "heroes/neutral/samir_l.bmp",
+			"small" : "heroes/neutral/samir_s.bmp",
+			"specialtyLarge" : "heroes/neutral/samir_sl.bmp",
+			"specialtySmall" : "heroes/neutral/samir_ss.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "pathfinding" },
+			{ "level" : "basic", "skill" : "scouting" }
+		],
+		"specialty": {
+			"creature": "nomad"
+		},
+		"texts" : {
+			"biography" : "",
+			"name" : "Samir",
+			"specialty" : {
+				"description" : "{Nomad}\n",
+				"name" : "Nomad",
+				"tooltip" : ""
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"h_eordan" : {
+		"army" : [
+			{ "creature" : "earthElemental", "max" : 2, "min" : 1 },
+			{ "creature" : "earthElemental", "max" : 2, "min" : 1 },
+			{ "creature" : "earthElemental", "max" : 1, "min" : 1 }
+		],
+		"class" : "elementalist",
+		"spellbook": [
+			"earthElemental"
+		],
+		"images" : {
+			"large" : "heroes/conflux/eordan_l.bmp",
+			"small" : "heroes/conflux/eordan_s.bmp",
+			"specialtyLarge" : "heroes/conflux/eordan_sl.bmp",
+			"specialtySmall" : "heroes/conflux/eordan_ss.bmp"
+		},
+		"skills" : [
+			{ "level" : "advanced", "skill" : "earthMagic" }
+		],
+		"specialty": {
+			"bonuses": {
+				"maxEarthElemental": {
+					"addInfo": 3,
+					"subtype": "spell.earthElemental",
+					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "",
+			"name" : "Eordan",
+			"specialty" : {
+				"description" : "{Earth Elemental}\n",
+				"name" : "Earth Elemental",
+				"tooltip" : ""
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"name" : "More Andruids Heroes",
+	"description" : "Add more heroes with Andruids mods dependency",
+	"author" : "Fiorin",
+	"contact" : "http://fior.in",
+	"version" : "1.0,0",
+	"modType" : "Heroes",
+	"keepDisabled" : true,
+		"depends" : [ 
+		"initiative"
+	],
+	"heroes" : [
+	]
+}

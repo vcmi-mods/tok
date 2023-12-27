@@ -1,0 +1,35 @@
+{
+	"h_ventura" : {
+		"army" : [
+			{ "creature" : "cr_plaguedoctor", "max" : 10, "min" : 5 },
+			{ "creature" : "cr_plaguedoctor", "max" : 10, "min" : 5 },
+			{ "creature" : "cr_plaguedoctor", "max" : 10, "min" : 5 }
+		],
+		"class" : "necromancer",
+		"spellbook": [
+			"deathRipple"
+		],
+		"images" : {
+			"large" : "heroes/necropolis/ventura_l.bmp",
+			"small" : "heroes/necropolis/ventura_s.bmp",
+			"specialtyLarge" : "heroes/necropolis/ventura_sl.png",
+			"specialtySmall" : "heroes/necropolis/ventura_ss.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "necromancy" },
+			{ "level" : "basic", "skill" : "sorcery" }
+		],
+		"specialty": {
+			"creature": "cr_plaguedoctor"
+		},
+		"texts" : {
+			"biography" : "",
+			"name" : "Ventura", 
+			"specialty" : {
+				"description" : "{Plague Doctor}\n\nIncreases Speed of any Loxodon by 1 and their Attack and Defense skills by 5% for every 4 level.",
+				"name" : "Plague Doctor",
+				"tooltip": "Creature bonus: Plague Doctor"
+			}
+		}
+	}
+}

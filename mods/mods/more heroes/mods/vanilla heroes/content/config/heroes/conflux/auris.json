@@ -1,0 +1,41 @@
+{
+	"h_auris" : {
+		"army" : [
+			{ "creature" : "airElemental", "max" : 3, "min" : 2 },
+			{ "creature" : "airElemental", "max" : 3, "min" : 2 },
+			{ "creature" : "airElemental", "max" : 3, "min" : 2 }
+		],
+		"class" : "elementalist",
+		"spellbook": [
+			"airElemental"
+		],
+		"female": true,
+		"images" : {
+			"large" : "heroes/conflux/auris_l.png",
+			"small" : "heroes/conflux/auris_s.png",
+			"specialtyLarge" : "heroes/conflux/auris_sl.png",
+			"specialtySmall" : "heroes/conflux/auris_ss.png"
+		},
+		"skills" : [
+			{ "level" : "advanced", "skill" : "airMagic" }
+		],
+		"specialty": {
+			"bonuses": {
+				"maxEarthElemental": {
+					"addInfo": 3,
+					"subtype": "spell.airElemental",
+					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "",
+			"name" : "Auris",
+			"specialty" : {
+				"description" : "{Air Elemental}\n",
+				"name" : "Air Elemental",
+				"tooltip" : ""
+			}
+		}
+	}
+}

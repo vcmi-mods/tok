@@ -1,0 +1,53 @@
+{
+	"h_hana" : {
+		"army" : [
+			{
+				"creature" : "waterElemental",
+				"min" : 2,
+				"max" : 3
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 2,
+				"max" : 3
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 2,
+				"max" : 3
+			}
+		],
+		"class" : "elementalist",
+		"spellbook": [
+			"waterElemental"
+		],
+		"female": true,
+		"images" : {
+			"large" : "heroes/conflux/hana_l.png",
+			"small" : "heroes/conflux/hana_s.png",
+			"specialtyLarge" : "heroes/conflux/hana_sl.png",
+			"specialtySmall" : "heroes/conflux/hana_ss.png"
+		},
+		"skills" : [
+			{ "level" : "advanced", "skill" : "waterMagic" }
+		],
+		"specialty": {
+			"bonuses": {
+				"maxEarthElemental": {
+					"addInfo": 3,
+					"subtype": "spell.waterElemental",
+					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "",
+			"name" : "Hana",
+			"specialty" : {
+				"description" : "{Water Elemental}\n",
+				"name" : "Water Elemental",
+				"tooltip" : ""
+			}
+		}
+	}
+}

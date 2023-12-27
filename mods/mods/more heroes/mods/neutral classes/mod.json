@@ -1,0 +1,21 @@
+{
+	"name": "Neutral classes",
+	"description": "Add some neutral classes",
+	"author": "Fiorin",
+	"contact": "https://fior.in",
+	"version": "1.0.0",
+	"modType": "Town",
+	"compatibility": {
+		"min": "1.4.0"
+	},
+	"changelog": {
+		"1.0.0": [
+			"added explorer class",
+			"added mystic class"
+		]
+	},
+	"heroClasses": [
+		"config/classes/explorer.json",
+		"config/classes/mystic.json"
+	]
+}

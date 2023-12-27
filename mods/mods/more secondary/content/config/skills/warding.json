@@ -1,0 +1,54 @@
+{
+	"warding" : {
+		"name" : "Warding",
+		"gainChance" : {
+			"might" : 0,
+			"magic" : 3
+		},
+		"basic": {
+			"images": {
+				"small": "skills/warding/wardingSmallBasic.png",
+				"medium": "skills/warding/wardingMediumBasic.png",
+				"large": "skills/warding/wardingLargeBasic.png"
+			},
+			"description": "{Basic Warding}\n\nCreatures are enchanted with Magic Mirror (25%).",
+			"effects": {
+				"enchanted": {
+					"type" : "ENCHANTED",
+					"subtype": "spell.magicMirror",
+					"val": 25
+				}
+			}
+		},
+		"advanced": {
+			"images": {
+				"small": "skills/warding/wardingSmallAdvanced.png",
+				"medium": "skills/warding/wardingMediumAdvanced.png",
+				"large": "skills/warding/wardingLargeAdvanced.png"
+			},
+			"description": "{Advanced Warding}\n\nCreatures are enchanted with Magic Mirror (50%).",
+			"effects": {
+				"enchanted": {
+					"type" : "ENCHANTED",
+					"subtype": "spell.magicMirror",
+					"val": 50
+				}
+			}
+		},
+		"expert": {
+			"images": {
+				"small": "skills/warding/wardingSmallExpert.png",
+				"medium": "skills/warding/wardingMediumExpert.png",
+				"large": "skills/warding/wardingLargeExpert.png"
+			},
+			"description": "{Expert Warding}\n\nCreatures are enchanted with Magic Mirror (75%).",
+			"effects": {
+				"enchanted": {
+					"type" : "ENCHANTED",
+					"subtype": "spell.magicMirror",
+					"val": 75
+				}
+			}
+		}
+	}
+}
