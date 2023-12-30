@@ -1,0 +1,57 @@
+{
+	"h_kurik" : {
+		"army" : [
+			{ "creature" : "cr_kobold", "max" : 25, "min" : 20 },
+			{ "creature" : "cr_kobold", "max" : 20, "min" : 15 },
+			{ "creature" : "cr_kobold", "max" : 15, "min" : 10 }
+		],
+		"class" : "overlord",
+		"images" : {
+			"large" : "heroes/dungeon/kurik_l.bmp",
+			"small" : "heroes/dungeon/kurik_s.bmp",
+			"specialtyLarge" : "heroes/dungeon/kurik_sl.bmp",
+			"specialtySmall" : "heroes/dungeon/kurik_ss.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "scouting" },
+			{ "level" : "basic", "skill" : "tactics" }
+		],
+		"specialty": {
+			"creature": "cr_kobold",
+				"bonuses" : {
+				"noRetaliation" : {
+					"type" : "BLOCKS_RETALIATION",
+					"limiters" : { "parameters" : [ "cr_kobold", true ] }
+				},
+				"spellPower" : 
+				{
+					"type" : "CREATURE_ENCHANT_POWER",
+					"val" : 1,
+					"limiters" : { "parameters" : [ "cr_kobold", true ] }
+				},
+				"spellPoints" : 
+				{
+					"type" : "CASTS",
+					"val" : 1,
+					"limiters" : { "parameters" : [ "cr_kobold", true ] }
+				},
+				"spellcaster":
+				{
+					"type" : "SPELLCASTER",
+					"subtype" : "spell.landMine",
+					"val" : 1,
+					"limiters" : { "parameters" : [ "cr_kobold", true ] }
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "",
+			"name" : "Kurik",
+			"specialty" : {
+				"description" : "{Kobold}\r\n\r\nIncreases Speed of any Kobold by 1 and their Attack and Defense skills by 5% for every 1 level.",
+				"name" : "Kobold",
+				"tooltip": "Creature bonus: Kobold."
+			}
+		}
+	}
+}

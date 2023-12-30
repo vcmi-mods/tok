@@ -1,0 +1,56 @@
+{
+	"rn_balor": {
+		"army": [
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 20
+			},
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 20
+			},
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 20
+			}
+		],
+		"class": "rn_might",
+		"images": {
+			"large": "heroes/ruins/balor_l.bmp",
+			"small": "heroes/ruins/balor_s.bmp",
+			"specialtyLarge": "heroes/ruins/balor_sl.bmp",
+			"specialtySmall": "heroes/ruins/balor_ss.bmp"
+		},
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "scouting"
+			},
+			{
+				"level": "basic",
+				"skill": "pathfinding"
+			}
+		],
+		"specialty": {
+			"bonuses" : { 
+				"lumber": {
+					"type" : "GENERATE_RESOURCE", 
+					"subtype" : "resource.wood", 
+					"val" : 2 
+				}
+			}
+		},
+		"texts": {
+			"biography": "A giant lumberjack hiding in his cabin at the foot of the great mountain. Balor only watches the travelers, but doesn't want become friendly with anyone.",
+			"name" : "Balor",
+			"specialty" : {
+				"tooltip" : "+2 Wood each day",
+				"name" : "+2 wood",
+				"description" : "{Wood}\r\n\r\nIncreases kingdom's wood production by 2 per day."
+			}
+		}
+	}
+}

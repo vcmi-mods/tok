@@ -1,0 +1,52 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"base" : {
+			"base" : {
+				"visitableFrom" : [ "---", "+++", "+++" ],
+				"mask" : [ "VVV", "VBB", "VAA" ]
+			},
+			"sounds" : {
+				"ambient" : ["LOOPSWOR"],
+				"visit" : ["MILITARY"]
+			}
+		},
+		"types" : {
+			// "cr_wendigo_dwelling": {
+			// 	"name" : "Cavern of Sorrow",
+			// 	"creatures": [["cr_wendigo"]],
+			// 	"templates" : {
+			// 		"default" : {
+			// 			"animation" : "map/wendigo"
+			// 		}
+			// 	}
+			// },
+			"cr_shaman_dwelling": {
+				"name" : "Corroboree Spot",
+				"creatures": [["cr_shaman"]],
+				"templates" : {
+					"default" : {
+						"animation" : "map/shaman"
+					}
+				}
+			},
+			"cr_gnome_dwelling": {
+				"name" : "Grass Cabin",
+				"creatures": [["cr_gnome"]],
+				"templates" : {
+					"default" : {
+						"animation" : "map/gnome"
+					}
+				}
+			},
+			"cr_plaguedoctor_dwelling": {
+				"name" : "Blight Lab",
+				"creatures": [["cr_plaguedoctor"]],
+				"templates" : {
+					"default" : {
+						"animation" : "map/plaguedoctor"
+					}
+				}
+			}
+		}	
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"name" : "More Tok Heroes",
+	"description" : "Add more heroes based on TOK additions",
+	"author" : "Fiorin",
+	"contact" : "http://fior.in",
+	"version" : "1.0,0",
+	"modType" : "Heroes",
+	"keepDisabled" : true,
+	"depends" : [
+		"ruins-town",
+		"tok.more creatures",
+		"tok.more heroes.neutral classes"
+	],
+	"heroes" : [
+		"config/heroes/stronghold/gromm.json", // bugbear
+		"config/heroes/stronghold/borg.json", // landmine
+		"config/heroes/stronghold/gnarlah.json", // bugbear
+		
+		"config/heroes/ruins/birog.json", // haste
+		"config/heroes/ruins/mabon.json", // haste
+		"config/heroes/ruins/balor.json", // haste
+
+		"config/heroes/dungeon/deru.json", // dragons bonus
+		"config/heroes/dungeon/kada.json", // fireball
+		"config/heroes/dungeon/kurik.json", // kobold
+
+		"config/heroes/necropolis/ventura.json", // plague doctor
+
+		"config/heroes/neutral/bomoh.json", // dinossaur
+		"config/heroes/neutral/sindh.json", // loxodon
+		"config/heroes/neutral/raji.json", // loxodon
+		"config/heroes/neutral/bha.json" // loxodon
+	]
+}

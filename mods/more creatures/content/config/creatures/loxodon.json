@@ -1,0 +1,76 @@
+{
+	"cr_monk_loxodon": {
+		"name": {
+			"singular": "Monk Loxodon",
+			"plural": "Monk Loxodons"
+		},
+		"level": 6,
+		"special": false,
+		"faction": "neutral",
+		"cost": {
+			"wood": 0,
+			"mercury": 0,
+			"ore": 0,
+			"sulfur": 0,
+			"crystal": 0,
+			"gems": 0,
+			"gold": 700
+		},
+		"fightValue": 1240,
+		"aiValue": 950,
+		"growth": 2,
+		"attack": 13,
+		"defense": 16,
+		"hitPoints": 120,
+		"shots": 0,
+		"speed": 5,
+		"damage": {
+			"min": 22,
+			"max": 26
+		},
+		"spellPoints": 0,
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"doubleWide": false,
+		"abilities": {
+			"elephant":	
+			{	
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.forgetfulness"
+			},
+			"defensive":
+			{
+				"type": "DEFENSIVE_STANCE",
+				"val": 16
+			},
+			"doubleDamage" :
+			{
+				"type" : "SPELL_RESISTANCE_AURA",
+				"val" : 16
+			}
+		},
+		"hasDoubleWeek": true,
+		"graphics": {
+			"animation" : "creatures/loxodon/battle.def",
+			"map" : "creatures/loxodon/adventure.def",
+			"iconSmall" : "creatures/loxodon/icon.bmp",
+			"iconLarge" : "creatures/loxodon/portrait.bmp",
+			"timeBetweenFidgets": 1.00,
+			"animationTime": {
+				"walk": 0.9,
+				"idle": 10.00,
+				"attack": 1.0
+			}
+		},
+		"sound": {
+			"attack": "BTREATTK.wav",
+			"defend": "BTREDFND.wav",
+			"killed": "BTREKILL.wav",
+			"move": "BTREMOVE.wav",
+			"wince": "BTREWNCE.wav"
+		}
+	}
+}

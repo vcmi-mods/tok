@@ -1,0 +1,42 @@
+{
+	"h_kada" : {
+		"army" : [
+			{ "creature" : "cr_kobold", "max" : 25, "min" : 20 },
+			{ "creature" : "cr_kobold", "max" : 20, "min" : 15 },
+			{ "creature" : "cr_kobold", "max" : 15, "min" : 10 }
+		],
+		"class" : "warlock",
+		"spellbook": [
+			"fireball"
+		],
+		"female": true,
+		"images" : {
+			"large" : "heroes/dungeon/kada_l.bmp",
+			"small" : "heroes/dungeon/kada_s.bmp",
+			"specialtyLarge" : "heroes/dungeon/kada_sl.bmp",
+			"specialtySmall" : "heroes/dungeon/kada_ss.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "scouting" },
+			{ "level" : "basic", "skill" : "fireMagic" }
+		],
+		"specialty": {
+			"bonuses": {
+				"maxEarthElemental": {
+					"addInfo": 3,
+					"subtype": "spell.fireball",
+					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "",
+			"name" : "Kada",
+			"specialty" : {
+				"description" : "{Fireball}\n",
+				"name" : "Fireball",
+				"tooltip" : ""
+			}
+		}
+	}
+}
