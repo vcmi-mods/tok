@@ -1,5 +1,5 @@
 {
-	"h_sindh" : {
+	"h_raji" : {
 		"army" : [
 			{ "creature" : "cr_monk_loxodon", "max" : 2, "min" : 1 },
 			{ "creature" : "firstAidTent", "max" : 1, "min" : 1 }

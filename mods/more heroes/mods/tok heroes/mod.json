@@ -12,23 +12,23 @@
 		"tok.more heroes.neutral classes"
 	],
 	"heroes" : [
-		"config/heroes/stronghold/gromm.json", // bugbear
-		"config/heroes/stronghold/borg.json", // landmine
-		"config/heroes/stronghold/gnarlah.json", // bugbear
+		"config/heroes/stronghold/gromm.json",
+		"config/heroes/stronghold/borg.json",
+		"config/heroes/stronghold/gnarlah.json",
 		
-		"config/heroes/ruins/birog.json", // haste
-		"config/heroes/ruins/mabon.json", // haste
-		"config/heroes/ruins/balor.json", // haste
+		"config/heroes/ruins/birog.json",
+		"config/heroes/ruins/mabon.json",
+		"config/heroes/ruins/balor.json",
 
-		"config/heroes/dungeon/deru.json", // dragons bonus
-		"config/heroes/dungeon/kada.json", // fireball
-		"config/heroes/dungeon/kurik.json", // kobold
+		"config/heroes/dungeon/deru.json",
+		"config/heroes/dungeon/kada.json",
+		"config/heroes/dungeon/kurik.json",
 
-		"config/heroes/necropolis/ventura.json", // plague doctor
+		"config/heroes/necropolis/ventura.json",
 
-		"config/heroes/neutral/bomoh.json", // dinossaur
-		"config/heroes/neutral/sindh.json", // loxodon
-		"config/heroes/neutral/raji.json", // loxodon
-		"config/heroes/neutral/bha.json" // loxodon
+		// "config/heroes/neutral/bomoh.json"
+		// "config/heroes/neutral/sindh.json",
+		// "config/heroes/neutral/raji.json",
+		// "config/heroes/neutral/bha.json"
 	]
 }
