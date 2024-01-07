@@ -11,15 +11,15 @@
 			}
 		},
 		"types" : {
-			// "cr_wendigo_dwelling": {
-			// 	"name" : "Cavern of Sorrow",
-			// 	"creatures": [["cr_wendigo"]],
-			// 	"templates" : {
-			// 		"default" : {
-			// 			"animation" : "map/wendigo"
-			// 		}
-			// 	}
-			// },
+			"cr_wendigo_dwelling": {
+				"name" : "Cavern of Sorrow",
+				"creatures": [["cr_wendigo"]],
+				"templates" : {
+					"default" : {
+						"animation" : "map/wendigo"
+					}
+				}
+			},
 			"cr_shaman_dwelling": {
 				"name" : "Corroboree Spot",
 				"creatures": [["cr_shaman"]],

@@ -1,11 +1,21 @@
 {
-	"name": "More Heroes",
-	"description": "New heroes",
-	"author": "Fiorin",
-	"contact": "https://fior.in",
-	"version": "1.0.0",
-	"modType": "Heroes",
-	"compatibility": {
-		"min": "1.4.0"
-	}
+	"name" : "More Heroes",
+	"description" : "New classes and heroes",
+	"author" : "Fiorin",
+	"contact" : "http://fior.in",
+	"version" : "0.1",
+	"modType" : "Heroes",
+	"changelog" :
+	{
+		"0.1" : ["Initial release"]
+	}, 
+	"heroes" : [
+		"config/heroes/ruins/balor.json",
+		"config/heroes/ruins/mabon.json",
+		"config/heroes/ruins/birog.json"
+	],
+	"depends" : [
+		"ruins-town",
+		"tok.more creatures"
+	]
 }

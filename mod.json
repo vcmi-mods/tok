@@ -3,7 +3,7 @@
 	"description" : "New classes, heroes & graphics improvements",
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
-	"version" : "1.0.1",
+	"version" : "1.0.2",
 	"modType" : "Creatures",
 	"changelog" :
 	{
@@ -11,7 +11,9 @@
 		"0.2" : ["Two new creatures added", "Four more heroes added", "Update to vcmi-1.2"],
 		"0.3" : ["Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"],
 		"0.31" : ["Technical boost for vcmi-1.4 repository"],
-		"1.0.1" : ["Mod compilation"]
+		"1.0.0" : ["Mod compilation"],
+		"1.0.1" : ["Update chinese translation"],
+		"1.0.2" : ["Update chinese translation and added the creatures' stackExp"]
 	}, 
 	"chinese" : {
 		"name" : "Tok",

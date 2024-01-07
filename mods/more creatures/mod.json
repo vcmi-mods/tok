@@ -3,7 +3,7 @@
 	"description" : "Creatures added to the core game.",
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
-	"version" : "0.6",
+	"version" : "0.5",
 	"modType" : "Creatures",	
 	"changelog" :
 	{
@@ -11,19 +11,15 @@
 		"0.2" : ["Four more heroes added", "Update to vcmi-1.2"],
 		"0.3" : ["Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"],
 		"0.4" : ["Loxodon added"],
-		"0.5" : ["Tyrannosaurus added"],
-		"0.6" : ["Bugbear added"],
-		"0.7" : ["Kobold added"]
+		"0.5" : ["Tyrannosaurus added"]
 	}, 
 	"creatures" : [
-		// "config/creatures/wendigo",
+		"config/creatures/wendigo",
 		"config/creatures/shaman",
 		"config/creatures/gnome",
 		"config/creatures/plaguedoctor",
 		"config/creatures/loxodon",
-		"config/creatures/tyrannosaurus",
-		"config/creatures/bugbear",
-		"config/creatures/kobold"
+		"config/creatures/tyrannosaurus"
 	],
 	"objects" : [ 
 		"config/dwellings"
