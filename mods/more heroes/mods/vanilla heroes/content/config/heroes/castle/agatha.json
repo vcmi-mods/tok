@@ -3,7 +3,7 @@
 		"army" : [
 			{ "creature" : "pikeman", "max" : 25, "min" : 20 },
 			{ "creature" : "archer", "max" : 7, "min" : 4 },
-			{ "creature" : "griffin", "max" : 2, "min" : 3 }
+			{ "creature" : "griffin", "max" : 3, "min" : 2 }
 		],
 		"female": true,
 		"class" : "cleric",

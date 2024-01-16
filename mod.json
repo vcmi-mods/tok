@@ -3,7 +3,7 @@
 	"description" : "New classes, heroes & graphics improvements",
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
-	"version" : "1.0.2",
+	"version" : "1.0.3",
 	"modType" : "Creatures",
 	"changelog" :
 	{
@@ -13,7 +13,8 @@
 		"0.31" : ["Technical boost for vcmi-1.4 repository"],
 		"1.0.0" : ["Mod compilation"],
 		"1.0.1" : ["Update chinese translation"],
-		"1.0.2" : ["Update chinese translation and added the creatures' stackExp"]
+		"1.0.2" : ["Update chinese translation and added the creatures' stackExp"],
+		"1.0.3" : ["Fixed Agatha's Griffins bug"]
 	}, 
 	"chinese" : {
 		"name" : "Tok",
