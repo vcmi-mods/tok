@@ -1,0 +1,39 @@
+{
+	"h_melaunchalot" : {
+		"army" : [
+			{ "creature" : "goblin", "max" : 25, "min" : 20 },
+			{ "creature" : "pikeman", "max" : 25, "min" : 20 },
+			{ "creature" : "archer", "max" : 10, "min" : 2 }
+		],
+		"class" : "knight",
+		"images" : {
+			"large" : "heroes/castle/melaunchalot_l.png",
+			"small" : "heroes/castle/melaunchalot_s.png",
+			"specialtyLarge" : "heroes/castle/melaunchalot_sl.bmp",
+			"specialtySmall" : "heroes/castle/melaunchalot_ss.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "endurance" },
+			{ "level" : "basic", "skill" : "ballistics" }
+		],
+		"specialty": {
+			"bonuses": {
+				"life": {
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE",
+					"propagator" : "GLOBAL",
+					"val" : 5
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "",
+			"name" : "Melaunchalot",
+			"specialty": {
+				"tooltip": "Secondary Skill Bonus: Endurance",
+				"name": "Endurance",
+				"description": "{Endurance}\r\n\r\nAll your creatures from Ruins get a permanent 5% health bonus."
+			}
+		}
+	}
+}

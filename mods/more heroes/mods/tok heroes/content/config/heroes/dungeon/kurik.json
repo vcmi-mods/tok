@@ -18,7 +18,7 @@
 		],
 		"specialty": {
 			"creature": "cr_kobold",
-				"bonuses" : {
+			"bonuses" : {
 				"noRetaliation" : {
 					"type" : "BLOCKS_RETALIATION",
 					"limiters" : { "parameters" : [ "cr_kobold", true ] }
@@ -32,13 +32,6 @@
 				"spellPoints" : 
 				{
 					"type" : "CASTS",
-					"val" : 1,
-					"limiters" : { "parameters" : [ "cr_kobold", true ] }
-				},
-				"spellcaster":
-				{
-					"type" : "SPELLCASTER",
-					"subtype" : "spell.landMine",
 					"val" : 1,
 					"limiters" : { "parameters" : [ "cr_kobold", true ] }
 				}

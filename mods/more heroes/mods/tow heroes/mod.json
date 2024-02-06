@@ -8,8 +8,14 @@
 	"keepDisabled" : true,
 	"depends" : [ 
 		"tides-of-war",
-		"tides-of-war.skills"
+		"tides-of-war.skills",
+		"ruins-town",
+		"tok.more creatures",
+		"tok.more heroes.neutral classes"
 	],
 	"heroes" : [
+		"config/heroes/neutral/larami.json", // tyranosaurus
+		
+		"config/heroes/inferno/nana.json" // curse
 	]
 }

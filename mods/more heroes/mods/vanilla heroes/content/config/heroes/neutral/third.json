@@ -1,0 +1,38 @@
+{
+	"h_third": {
+		"army" : [
+			{ "creature" : "goldGolem", "min" : 5, "max" : 2 },
+			{ "creature" : "goldGolem", "min" : 3, "max" : 2 },
+			{ "creature" : "goldGolem", "min" : 3, "max" : 2 }
+		],
+		"class": "hc_explorer",
+		"images": {
+			"large" : "heroes/neutral/third_l.png",
+			"small" : "heroes/neutral/third_s.png",
+			"specialtyLarge" : "heroes/neutral/third_sl.png",
+			"specialtySmall" : "heroes/neutral/third_ss.png"
+		},
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "estates"
+			},
+			{
+				"level": "basic",
+				"skill": "armorer"
+			}
+		],
+		"specialty": {
+			"creature": "goldGolem"
+		},
+		"texts": {
+			"biography": "",
+			"name": "Third",
+			"specialty": {
+				"description": "{Gold Golem}\r\n\r\nIncreases Speed of any Gold Golem by 1 and their Attack and Defense skills by 5% for every 5 level.",
+				"name": "Gold Golem",
+				"tooltip": "Creature bonus: Gold Golem"
+			}
+		}
+	}
+}

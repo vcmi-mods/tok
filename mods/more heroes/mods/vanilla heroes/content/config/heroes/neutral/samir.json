@@ -5,7 +5,7 @@
 			{ "creature" : "nomad", "max" : 5, "min" : 2 },
 			{ "creature" : "nomad", "max" : 5, "min" : 2 }
 		],
-		"class" : "explorer",
+		"class" : "hc_explorer",
 		"images" : {
 			"large" : "heroes/neutral/samir_l.bmp",
 			"small" : "heroes/neutral/samir_s.bmp",
@@ -22,10 +22,10 @@
 		"texts" : {
 			"biography" : "",
 			"name" : "Samir",
-			"specialty" : {
-				"description" : "{Nomad}\n",
-				"name" : "Nomad",
-				"tooltip" : ""
+			"specialty": {
+				"description": "Nomad}\r\n\r\nIncreases Speed of any Nomad by 1 and their Attack and Defense skills by 5% for every 3 level.",
+				"name": "Nomad",
+				"tooltip": "Creature bonus: Nomad"
 			}
 		}
 	}

@@ -1,0 +1,54 @@
+{
+	"h_rudi" : {
+		"army" : [
+			{
+				"creature" : "hellHound",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "firstAidTent",
+				"min" : 1,
+				"max" : 1
+			}
+		],
+		"class" : "demoniac",
+		"images" : {
+			"large" : "heroes/inferno/rudi_l.png",
+			"small" : "heroes/inferno/rudi_s.png",
+			"specialtyLarge" : "heroes/inferno/rudi_sl.bmp",
+			"specialtySmall" : "heroes/inferno/rudi_ss.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "firstAid" },
+			{ "level" : "basic", "skill" : "intimidation" }
+		],
+		"specialty": 
+		{
+			"bonuses" : {
+				"firstAid" : {
+					"subtype" : "core:spell.firstAid",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPECIFIC_SPELL_POWER",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "",
+			"name" : "Rudi",
+			"specialty" : {
+				"description" : "{First Aid}\n",
+				"name" : "{First Aid",
+				"tooltip" : ""
+			}
+		}
+	}
+}

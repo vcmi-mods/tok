@@ -1,0 +1,53 @@
+{
+	"h_veles" : {
+		"army" : [
+			{
+				"creature" : "skeleton",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+			"creature" : "walkingDead",
+			"max" : 6,
+			"min" : 4
+			},
+			{
+			"creature" : "wight",
+			"max" : 6,
+			"min" : 4
+			}
+		],
+		"class" : "necromancer",
+		"spellbook": [
+			"antiMagic"
+		],
+		"images" : {
+			"large" : "heroes/necropolis/veles_l.bmp",
+			"small" : "heroes/necropolis/veles_s.bmp",
+			"specialtyLarge" : "heroes/necropolis/veles_sl.png",
+			"specialtySmall" : "heroes/necropolis/veles_ss.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "necromancy" },
+			{ "level" : "basic", "skill" : "warding" }
+		],
+		"specialty": {
+			"bonuses": {
+				"maxWeakness": {
+					"addInfo": 3,
+					"subtype": "spell.antiMagic",
+					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "",
+			"name" : "Veles", 
+			"specialty" : {
+				"description" : "{Weakness}\n\n",
+				"name" : "Weakness",
+				"tooltip": "Weakness"
+			}
+		}
+	}
+}

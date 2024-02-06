@@ -10,9 +10,13 @@
 		"hota.cove",
 		"hota.interference",
 		"ruins-town",
+		"tok.more secondary",
 		"tok.more creatures"
 	],
 	"heroes" : [
-		"config/heroes/necropolis/lorme.json" // death ripple
+		"config/heroes/necropolis/lorme.json", // death ripple
+		"config/heroes/necropolis/cintia.json", // interference
+		
+		"config/heroes/tower/marlon.json" // sorcery
 	]
 }

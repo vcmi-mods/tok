@@ -9,26 +9,28 @@
 	"depends" : [
 		"ruins-town",
 		"tok.more creatures",
+		"tok.more secondary",
 		"tok.more heroes.neutral classes"
 	],
 	"heroes" : [
-		"config/heroes/stronghold/gromm.json",
-		"config/heroes/stronghold/borg.json",
-		"config/heroes/stronghold/gnarlah.json",
-		
-		"config/heroes/ruins/birog.json",
-		"config/heroes/ruins/mabon.json",
-		"config/heroes/ruins/balor.json",
+		"config/heroes/castle/melaunchalot.json",
 
-		"config/heroes/dungeon/deru.json",
+		"config/heroes/stronghold/gromm.json",
+		"config/heroes/stronghold/borg.json", 
+		
+		"config/heroes/ruins/birog.json", // haste
+		"config/heroes/ruins/mabon.json", // gems
+		//"config/heroes/ruins/balor.json", // wood
+		"config/heroes/ruins/boudicca.json", // shackles
+
 		"config/heroes/dungeon/kada.json",
 		"config/heroes/dungeon/kurik.json",
 
 		"config/heroes/necropolis/ventura.json",
+		"config/heroes/necropolis/veles.json",
 
 		// "config/heroes/neutral/bomoh.json"
-		// "config/heroes/neutral/sindh.json",
-		// "config/heroes/neutral/raji.json",
-		// "config/heroes/neutral/bha.json"
+		"config/heroes/neutral/bha.json",
+		"config/heroes/neutral/velochi.json"
 	]
 }

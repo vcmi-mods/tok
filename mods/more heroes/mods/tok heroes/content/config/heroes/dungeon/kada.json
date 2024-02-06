@@ -26,6 +26,10 @@
 					"addInfo": 3,
 					"subtype": "spell.fireball",
 					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
+				},
+				"allowOwnSpells" : {
+					"type" : "RECEPTIVE",
+					"limiters" : ["DRAGON_NATURE"]
 				}
 			}
 		},

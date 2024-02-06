@@ -16,7 +16,7 @@
 			"specialtySmall" : "heroes/necropolis/lorme_ss.png"
 		},
 		"skills" : [
-			{ "level" : "basic", "skill" : "necromancy" },
+			{ "level" : "basic", "skill" : "firstAid" },
 			{ "level" : "basic", "skill" : "interference" }
 		],
 		"specialty": {

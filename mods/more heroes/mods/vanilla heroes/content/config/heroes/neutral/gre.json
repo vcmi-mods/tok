@@ -1,0 +1,41 @@
+{
+	"h_gre" : {
+		"army" : [
+			{ "creature" : "stoneGolem", "max" : 10, "min" : 5 },
+			{ "creature" : "stoneGolem", "max" : 10, "min" : 5 },
+			{ "creature" : "stoneGolem", "max" : 10, "min" : 5 }
+		],
+		"class" : "explorer",
+		"spellbook": [
+			"quickSand"
+		],
+		"images" : {
+			"large" : "heroes/conflux/gre_l.bmp",
+			"small" : "heroes/conflux/gre_s.bmp",
+			"specialtyLarge" : "heroes/conflux/gre_sl.bmp",
+			"specialtySmall" : "heroes/conflux/gre_ss.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "wisdom" },
+			{ "level" : "basic", "skill" : "earthMagic" }
+		],
+		"specialty": {
+			"bonuses": {
+				"quickSand": {
+					"addInfo": 3,
+					"subtype": "spell.quickSand",
+					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "",
+			"name" : "Gre",
+			"specialty" : {
+				"description" : "{Quicksand}\n",
+				"name" : "Quicksand",
+				"tooltip" : ""
+			}
+		}
+	}
+}

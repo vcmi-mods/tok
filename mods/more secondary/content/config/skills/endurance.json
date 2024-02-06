@@ -1,0 +1,57 @@
+{
+	"endurance" : {
+		"name" : "Endurance",
+		"gainChance" : {
+			"might" : 6,
+			"magic" : 1
+		},
+		"base": {
+			"effects": {
+				"life": {
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE",
+					"propagator" : "BATTLE_WIDE"
+				}
+			}
+		},
+		"basic": {
+			"images": {
+				"small": "skills/endurance/SmallBasic.png",
+				"medium": "skills/endurance/MediumBasic.png",
+				"large": "skills/endurance/LargeBasic.png"
+			},
+			"description": "{Basic endurance}\n\nAll your creatures from Ruins get a 5% health bonus in battle.",
+			"effects": {
+				"life": {
+					"val" : 5
+				}
+			}
+		},
+		"advanced": {
+			"images": {
+				"small": "skills/endurance/SmallAdvanced.png",
+				"medium": "skills/endurance/MediumAdvanced.png",
+				"large": "skills/endurance/LargeAdvanced.png"
+			},
+			"description": "{Advanced endurance}\n\nAll your creatures from Ruins get a 10% health bonus in battle.",
+			"effects": {
+				"life": {
+					"val" : 10
+				}
+			}
+		},
+		"expert": {
+			"images": {
+				"small": "skills/endurance/SmallExpert.png",
+				"medium": "skills/endurance/MediumExpert.png",
+				"large": "skills/endurance/LargeExpert.png"
+			},
+			"description": "{Expert endurance}\n\nAll your creatures from Ruins get a 15% health bonus.",
+			"effects": {
+				"life": {
+					"val" : 15
+				}
+			}
+		}
+	}
+}

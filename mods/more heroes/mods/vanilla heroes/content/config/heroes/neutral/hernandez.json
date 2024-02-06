@@ -1,38 +1,39 @@
 {
-	"h_eordan" : {
+	"h_hernandez" : {
 		"army" : [
-			{ "creature" : "earthElemental", "max" : 2, "min" : 1 },
-			{ "creature" : "earthElemental", "max" : 2, "min" : 1 },
-			{ "creature" : "earthElemental", "max" : 1, "min" : 1 }
+			{ "creature" : "halfling", "max" : 20, "min" : 10 },
+			{ "creature" : "rogue", "max" : 7, "min" : 5 },
+			{ "creature" : "ammoCart", "max" : 1, "min" : 1 }
 		],
-		"class" : "elementalist",
+		"class" : "hc_mystic",
 		"spellbook": [
-			"earthElemental"
+			"fortune"
 		],
 		"images" : {
-			"large" : "heroes/conflux/eordan_l.bmp",
-			"small" : "heroes/conflux/eordan_s.bmp",
-			"specialtyLarge" : "heroes/conflux/eordan_sl.bmp",
-			"specialtySmall" : "heroes/conflux/eordan_ss.bmp"
+			"large" : "heroes/neutral/hernandez_l.bmp",
+			"small" : "heroes/neutral/hernandez_s.bmp",
+			"specialtyLarge" : "heroes/neutral/hernandez_sl.bmp",
+			"specialtySmall" : "heroes/neutral/hernandez_ss.bmp"
 		},
 		"skills" : [
-			{ "level" : "advanced", "skill" : "earthMagic" }
+			{ "level" : "basic", "skill" : "diplomacy" },
+			{ "level" : "basic", "skill" : "luck" }
 		],
 		"specialty": {
 			"bonuses": {
-				"maxEarthElemental": {
+				"fortune": {
 					"addInfo": 3,
-					"subtype": "spell.earthElemental",
+					"subtype": "spell.fortune",
 					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}
 		},
 		"texts" : {
 			"biography" : "",
-			"name" : "Eordan",
+			"name" : "Hernandez",
 			"specialty" : {
-				"description" : "{Earth Elemental}\n",
-				"name" : "Earth Elemental",
+				"description" : "{}\n",
+				"name" : "",
 				"tooltip" : ""
 			}
 		}

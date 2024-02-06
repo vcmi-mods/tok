@@ -1,0 +1,32 @@
+{
+	"h_nora" : {
+		"army" : [
+			{ "creature" : "centaur", "max" : 20, "min" : 15 },
+			{ "creature" : "dwarf", "max" : 10, "min" : 5 },
+			{ "creature" : "woodElf", "max" : 4, "min" : 2 }
+		],
+		"class" : "ranger",
+		"images" : {
+			"large" : "heroes/rampart/nora_l.bmp",
+			"small" : "heroes/rampart/nora_s.bmp",
+			"specialtyLarge" : "heroes/rampart/nora_sl.bmp",
+			"specialtySmall" : "heroes/rampart/nora_ss.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "offence" },
+			{ "level" : "basic", "skill" : "initiative" }
+		],
+		"specialty": {
+			"creature": "woodElf"
+		},
+		"texts" : {
+			"biography" : "",
+			"name" : "Nora",
+			"specialty": {
+				"description": "Wood Elf}\r\n\r\nIncreases Speed of any Wood Elf or Grand Elf by 1 and their Attack and Defense skills by 5% for every 3 level.",
+				"name": "Wood Elf",
+				"tooltip": "Creature bonus: Wood Elf"
+			}
+		}
+	}
+}

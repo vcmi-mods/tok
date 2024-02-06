@@ -1,0 +1,42 @@
+{
+	"h_marlon" : {
+		"army" : [
+			{ "creature" : "gremlin", "max" : 25, "min" : 15 },
+			{ "creature" : "gremlin", "max" : 25, "min" : 15 },
+			{ "creature" : "masterGremlin", "max" : 15, "min" : 5 }
+		],
+		"class" : "wizard",
+		"spellbook": [ "dispel" ],
+		"images" : {
+			"large" : "heroes/tower/marlon_l.bmp",
+			"small" : "heroes/tower/marlon_s.bmp",
+			"specialtyLarge" : "heroes/tower/marlon_sl.png",
+			"specialtySmall" : "heroes/tower/marlon_ss.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "sorcery" },
+			{ "level" : "basic", "skill" : "interference" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPELL_DAMAGE",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "",
+			"name" : "Marlon",
+			"specialty" :
+			{
+				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill.",
+				"tooltip" : "Secondary Skill Bonus: Sorcery",
+				"name" : "Sorcery"
+			}
+		}
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"fame" : {
+		"name" : "Fame",
+		"gainChance" : {
+			"might" : 1,
+			"magic" : 1
+		},
+		"basic": {
+			"images": {
+				"small": "skills/fame/SmallBasic.png",
+				"medium": "skills/fame/MediumBasic.png",
+				"large": "skills/fame/LargeBasic.png"
+			},
+			"description": "{Basic fame}\n\n",
+			"effects": {
+				"growth1" : {
+					"type" : "CREATURE_GROWTH",
+					"val" : 2,
+					"subtype" : "creatureLevel1",
+					"propagator": "VISITED_TOWN_AND_VISITOR"
+				},
+				"growth2" : {
+					"type" : "CREATURE_GROWTH",
+					"val" : 1,
+					"subtype" : "creatureLevel2",
+					"propagator": "VISITED_TOWN_AND_VISITOR"
+				}
+			}
+		},
+		"advanced": {
+			"images": {
+				"small": "skills/fame/SmallAdvanced.png",
+				"medium": "skills/fame/MediumAdvanced.png",
+				"large": "skills/fame/LargeAdvanced.png"
+			},
+			"description": "{Advanced fame}\n\n",
+			"effects": {
+				"growth1" : {
+					"type" : "CREATURE_GROWTH",
+					"val" : 4,
+					"subtype" : "creatureLevel1",
+					"propagator": "VISITED_TOWN_AND_VISITOR"
+				},
+				"growth2" : {
+					"type" : "CREATURE_GROWTH",
+					"val" : 2,
+					"subtype" : "creatureLevel2",
+					"propagator": "VISITED_TOWN_AND_VISITOR"
+				},
+				"growth3" : {
+					"type" : "CREATURE_GROWTH",
+					"val" : 1,
+					"subtype" : "creatureLevel3",
+					"propagator": "VISITED_TOWN_AND_VISITOR"
+				}
+			}
+		},
+		"expert": {
+			"images": {
+				"small": "skills/fame/SmallExpert.png",
+				"medium": "skills/fame/MediumExpert.png",
+				"large": "skills/fame/LargeExpert.png"
+			},
+			"description": "{Expert fame}\n\n",
+			"effects": {
+				"growth" : {
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 25,
+					"propagator": "VISITED_TOWN_AND_VISITOR"
+				}
+			}
+		}
+	}
+}
