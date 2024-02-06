@@ -16,6 +16,7 @@
 	"heroes" : [
 		"config/heroes/neutral/larami.json", // tyranosaurus
 		
-		"config/heroes/inferno/nana.json" // curse
+		"config/heroes/inferno/nana.json", // curse
+		"config/heroes/inferno/rudi.json" // curse
 	]
 }

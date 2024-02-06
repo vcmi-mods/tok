@@ -14,13 +14,13 @@
 		"config/heroes/castle/elena.json", // pikeman
 		"config/heroes/castle/prince.json", // goblin
 
-		"config/heroes/conflux/eordan.json", // earth elemental
-		"config/heroes/conflux/auris.json", // air elemental
-		"config/heroes/conflux/hana.json", // water elemental
-		"config/heroes/conflux/bel.json", // fire elemental
-		"config/heroes/conflux/pandora.json", // phoenix
-		"config/heroes/conflux/liana.json", // pixie
+		"config/heroes/conflux/eordan.json",
+		"config/heroes/conflux/auris.json",
+		"config/heroes/conflux/hana.json",
+		"config/heroes/conflux/bel.json",
+		"config/heroes/conflux/pandora.json",
+		"config/heroes/conflux/liana.json",
 
-		"config/heroes/neutral/third.json" // goldGolem
+		"config/heroes/neutral/third.json"
 	]
 }
