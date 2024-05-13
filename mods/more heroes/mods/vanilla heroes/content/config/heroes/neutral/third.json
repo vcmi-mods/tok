@@ -1,9 +1,9 @@
 {
 	"h_third": {
 		"army" : [
-			{ "creature" : "goldGolem", "min" : 5, "max" : 2 },
-			{ "creature" : "goldGolem", "min" : 3, "max" : 2 },
-			{ "creature" : "goldGolem", "min" : 3, "max" : 2 }
+			{ "creature" : "goldGolem", "min" : 2, "max" : 5 },
+			{ "creature" : "goldGolem", "min" : 2, "max" : 3 },
+			{ "creature" : "goldGolem", "min" : 2, "max" : 3 }
 		],
 		"class": "hc_explorer",
 		"images": {

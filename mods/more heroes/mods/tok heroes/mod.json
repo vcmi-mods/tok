@@ -16,21 +16,19 @@
 		"config/heroes/castle/melaunchalot.json",
 
 		"config/heroes/stronghold/gromm.json",
-		"config/heroes/stronghold/borg.json", 
 		
 		"config/heroes/ruins/birog.json", // haste
 		"config/heroes/ruins/mabon.json", // gems
-		//"config/heroes/ruins/balor.json", // wood
 		"config/heroes/ruins/boudicca.json", // shackles
 
-		"config/heroes/dungeon/kada.json",
 		"config/heroes/dungeon/kurik.json",
 
 		"config/heroes/necropolis/ventura.json",
 		"config/heroes/necropolis/veles.json",
 
-		// "config/heroes/neutral/bomoh.json"
 		"config/heroes/neutral/bha.json",
-		"config/heroes/neutral/velochi.json"
+		"config/heroes/neutral/ann.json",
+		
+		"config/heroes/fortress/lamount.json"
 	]
 }

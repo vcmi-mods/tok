@@ -21,7 +21,7 @@
 				"life": {
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE",
-					"propagator" : "GLOBAL",
+					"propagator" : "BATTLE_WIDE",
 					"val" : 5
 				}
 			}

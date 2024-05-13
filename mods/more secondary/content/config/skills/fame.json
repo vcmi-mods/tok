@@ -11,7 +11,7 @@
 				"medium": "skills/fame/MediumBasic.png",
 				"large": "skills/fame/LargeBasic.png"
 			},
-			"description": "{Basic fame}\n\n",
+			"description": "{Basic fame}\n\nIncreases the weekly creature growth by 2 for level 1 creatures and by 1 for level 2 creatures",
 			"effects": {
 				"growth1" : {
 					"type" : "CREATURE_GROWTH",
@@ -33,7 +33,7 @@
 				"medium": "skills/fame/MediumAdvanced.png",
 				"large": "skills/fame/LargeAdvanced.png"
 			},
-			"description": "{Advanced fame}\n\n",
+			"description": "{Advanced fame}\n\nIncreases the weekly creature growth by 4 for level 1 creatures, by 2 for level 2 creatures and by 1 for level 3 creatures",
 			"effects": {
 				"growth1" : {
 					"type" : "CREATURE_GROWTH",
@@ -61,7 +61,7 @@
 				"medium": "skills/fame/MediumExpert.png",
 				"large": "skills/fame/LargeExpert.png"
 			},
-			"description": "{Expert fame}\n\n",
+			"description": "{Expert fame}\n\nIncreases the weekly creature growth by 25%",
 			"effects": {
 				"growth" : {
 					"type" : "CREATURE_GROWTH_PERCENT",
