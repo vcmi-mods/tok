@@ -17,6 +17,7 @@
 	"spells" : [],
 	"skills" : [
 		"config/skills/warding.json",
-		"config/skills/endurance.json"
+		"config/skills/endurance.json",
+		"config/skills/fame.json"
 	]
 }

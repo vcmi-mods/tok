@@ -10,9 +10,8 @@
 		"tok.more heroes.neutral classes"
 	],
 	"heroes" : [
-		"config/heroes/castle/agatha.json", // angel
-		"config/heroes/castle/elena.json", // pikeman
-		"config/heroes/castle/prince.json", // goblin
+		"config/heroes/castle/agatha.json",
+		"config/heroes/castle/elena.json",
 
 		"config/heroes/conflux/eordan.json",
 		"config/heroes/conflux/auris.json",
@@ -21,6 +20,8 @@
 		"config/heroes/conflux/pandora.json",
 		"config/heroes/conflux/liana.json",
 
+		"config/heroes/neutral/gre.json",
+		// "config/heroes/neutral/hernandez.json",
 		"config/heroes/neutral/third.json"
 	]
 }

@@ -14,9 +14,8 @@
 		"tok.more creatures"
 	],
 	"heroes" : [
-		"config/heroes/necropolis/lorme.json", // death ripple
-		"config/heroes/necropolis/cintia.json", // interference
+		"config/heroes/necropolis/cintia.json",
 		
-		"config/heroes/tower/marlon.json" // sorcery
+		"config/heroes/tower/marlon.json"
 	]
 }

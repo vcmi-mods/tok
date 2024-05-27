@@ -1,0 +1,71 @@
+{
+	"h_lamount": {
+		"army": [
+			{
+				"creature": "cr_orangutan",
+				"max": 4,
+				"min": 3
+			},
+			{
+				"creature": "cr_orangutan",
+				"max": 4,
+				"min": 3
+			},
+			{
+				"creature": "cr_orangutan",
+				"max": 4,
+				"min": 3
+			}
+		],
+		"class": "beastmaster",
+		"images": {
+			"large": "heroes/fortress/lamount_l.png",
+			"small": "heroes/fortress/lamount_s.png",
+			"specialtyLarge": "heroes/fortress/lamount_sl.png",
+			"specialtySmall": "heroes/fortress/lamount_ss.png"
+		},
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "intelligence"
+			},
+			{
+				"level": "basic",
+				"skill": "pathfinding"
+			}
+		],
+		"specialty": {
+			"bonuses" : {
+				"attack" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"limiters" : { "parameters" : [ "cr_orangutan", false ] },
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"parameters" : [ 10, 3 ]
+					}
+				},
+				"health" : {
+					"type" : "STACK_HEALTH",
+					"val" : 25,
+					"valueType" : "PERCENT_TO_BASE",
+					"limiters" : { "parameters" : [ "cr_orangutan", true ] }
+				},
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"limiters" : { "parameters" : [ "cr_orangutan", true ] }
+				}
+			}
+		},
+		"texts": {
+			"biography": "",
+			"name" : "Lamount",
+			"specialty": {
+				"description": "{Orangutan}\r\n\r\nIncreases Speed of any Orangutan by 1, and their Defense skills by 1 for each level attained after 3rd level. Additionally, Orangutans get a permanent 25% Health bonus.",
+				"name": "Orangutan",
+				"tooltip": "Creature bonus: Orangutan"
+			}
+		}
+	}
+}

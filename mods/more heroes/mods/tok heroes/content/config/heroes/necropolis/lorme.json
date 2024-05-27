@@ -1,5 +1,5 @@
 {
-	"h_ventura" : {
+	"h_lorme" : {
 		"army" : [
 			{ "creature" : "cr_plaguedoctor", "max" : 10, "min" : 5 },
 			{ "creature" : "cr_plaguedoctor", "max" : 10, "min" : 5 },
@@ -10,10 +10,10 @@
 			"deathRipple"
 		],
 		"images" : {
-			"large" : "heroes/necropolis/ventura_l.bmp",
-			"small" : "heroes/necropolis/ventura_s.bmp",
-			"specialtyLarge" : "heroes/necropolis/ventura_sl.png",
-			"specialtySmall" : "heroes/necropolis/ventura_ss.png"
+			"large" : "heroes/necropolis/lorme_l.bmp",
+			"small" : "heroes/necropolis/lorme_s.bmp",
+			"specialtyLarge" : "heroes/necropolis/lorme_sl.png",
+			"specialtySmall" : "heroes/necropolis/lorme_ss.png"
 		},
 		"skills" : [
 			{ "level" : "basic", "skill" : "firstAid" },
@@ -24,9 +24,9 @@
 		},
 		"texts" : {
 			"biography" : "",
-			"name" : "Ventura", 
+			"name" : "Lorme", 
 			"specialty" : {
-				"description" : "{Plague Doctor}\n\nIncreases Speed of any Loxodon by 1 and their Attack and Defense skills by 5% for every 4 level.",
+				"description" : "{Plague Doctor}\n\nIncreases Speed of any Plague Doctor by 1 and their Attack and Defense skills by 5% for every 4 level.",
 				"name" : "Plague Doctor",
 				"tooltip": "Creature bonus: Plague Doctor"
 			}

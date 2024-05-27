@@ -1,5 +1,5 @@
 {
-	"h_julia" : {
+	"h_ann" : {
 		"army" : [
 			{ "creature" : "archer", "max" : 15, "min" : 5 },
 			{ "creature" : "woodElf", "max" : 10, "min" : 5 },
@@ -7,10 +7,10 @@
 		],
 		"class" : "hc_explorer",
 		"images" : {
-			"large" : "heroes/neutral/velochi_l.png",
-			"small" : "heroes/neutral/velochi_s.png",
-			"specialtyLarge" : "heroes/neutral/velochi_sl.bmp",
-			"specialtySmall" : "heroes/neutral/velochi_ss.bmp"
+			"large" : "heroes/neutral/ann_l.png",
+			"small" : "heroes/neutral/ann_s.png",
+			"specialtyLarge" : "heroes/neutral/ann_sl.bmp",
+			"specialtySmall" : "heroes/neutral/ann_ss.bmp"
 		},
 		"skills" : [
 			{ "level" : "basic", "skill" : "evasion" },
