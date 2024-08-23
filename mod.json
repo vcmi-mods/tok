@@ -23,6 +23,13 @@
 			"translation/tok/chinese.json"
 		]
 	},
+	"russian" : {
+		"name" : "tok | Extras",
+		"description" : "Новые классы, герои и графические улучшения",
+		"translations" : [
+			"translation/tok/russian.json"
+		]
+	},
 	"compatibility":
 	{
 	"min" : "1.4.0"
