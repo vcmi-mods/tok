@@ -3,7 +3,7 @@
 	"description" : "New classes, heroes & graphics improvements",
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
-	"version" : "1.0.4",
+	"version" : "1.0.5",
 	"modType" : "Creatures",
 	"changelog" :
 	{
@@ -15,7 +15,8 @@
 		"1.0.1" : ["Update chinese translation"],
 		"1.0.2" : ["Update chinese translation and added the creatures' stackExp"],
 		"1.0.3" : ["Fixed Agatha's Griffins bug"],
-		"1.0.4" : ["Update chinese translation"]
+		"1.0.4" : ["Update chinese translation"],
+		"1.0.5" : ["Czech translation by George King"]
 	}, 
 	"chinese" : {
 		"name" : "Tok",
@@ -29,6 +30,13 @@
 		"description" : "Новые классы, герои и графические улучшения",
 		"translations" : [
 			"translation/tok/russian.json"
+		]
+	},
+	"czech" : {
+		"name" : "Tok",
+		"description" : "Nové neutrální jednotky, nové třídy, hrdinové a grafická vylepšení vytvořená Fiorinem.",
+		"translations" : [
+			"translation/tok/czech.json"
 		]
 	},
 	"compatibility":
