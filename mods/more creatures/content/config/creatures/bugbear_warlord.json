@@ -1,13 +1,10 @@
 {
-	"cr_bugbear": {
+	"cr_bugbear_warlord": {
 		"name": {
-			"singular": "Bugbear",
-			"plural": "Bugbears"
+			"singular": "Bugbear Warlord",
+			"plural": "Bugbear Warlords"
 		},
 		"level": 3,
-		"upgrades": [
-			"cr_bugbear_warlord"
-		],
 		"special": false,
 		"faction": "stronghold",
 		"cost": {
@@ -17,16 +14,16 @@
 			"sulfur": 0,
 			"crystal": 0,
 			"gems": 0,
-			"gold": 150
+			"gold": 170
 		},
-		"fightValue": 195,
-		"aiValue": 320,
+		"fightValue": 215,
+		"aiValue": 350,
 		"growth": 7,
-		"attack": 9,
+		"attack": 11,
 		"defense": 6,
-		"hitPoints": 25,
+		"hitPoints": 30,
 		"shots": 0,
-		"speed": 6,
+		"speed": 7,
 		"damage": {
 			"min": 2,
 			"max": 6
@@ -38,18 +35,21 @@
 		},
 		"doubleWide": false,
 		"abilities": {
+			"fast": {
+				"type": "FIRST_STRIKE"
+			},
 			"darkvision": {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.blind",
 				"addInfo" : 1
 			}
 		},
-		"hasDoubleWeek": true,
+		"hasDoubleWeek": false,
 		"graphics": {
-			"animation" : "creatures/bugbear/battle.def",
-			"map" : "creatures/bugbear/adventure.def",
-			"iconSmall" : "creatures/bugbear/icon.bmp",
-			"iconLarge" : "creatures/bugbear/portrait.bmp",
+			"animation" : "creatures/bugbear_warlord/battle.def",
+			"map" : "creatures/bugbear_warlord/adventure.def",
+			"iconSmall" : "creatures/bugbear_warlord/icon.bmp",
+			"iconLarge" : "creatures/bugbear_warlord/portrait.bmp",
 			"timeBetweenFidgets": 1.00,
 			"animationTime": {
 				"walk": 1,

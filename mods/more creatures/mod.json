@@ -3,7 +3,7 @@
 	"description" : "Creatures added to the core game.",
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
-	"version" : "0.8",
+	"version" : "0.9",
 	"modType" : "Creatures",	
 	"changelog" :
 	{
@@ -14,7 +14,8 @@
 		"0.5" : ["Tyrannosaurus added"],
 		"0.6" : ["Bugbear added"],
 		"0.7" : ["Kobold added"],
-		"0.8" : ["Orangutan added"]
+		"0.8" : ["Orangutan added"],
+		"0.9" : ["Bugbear and Bugbear Warlord added"]
 	}, 
 	"creatures" : [
 		// "config/creatures/wendigo",
@@ -24,6 +25,7 @@
 		"config/creatures/loxodon",
 		"config/creatures/tyrannosaurus",
 		"config/creatures/bugbear",
+		"config/creatures/bugbear_warlord",
 		"config/creatures/kobold",
 		"config/creatures/orangutan"
 	],
