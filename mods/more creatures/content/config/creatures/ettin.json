@@ -1,0 +1,83 @@
+{
+	"cr_ettin": {
+		"name": {
+			"singular": "Ettin",
+			"plural": "Ettins"
+		},
+		"level": 5,
+		"special": false,
+		"faction": "stronghold",
+		"cost": {
+			"wood": 0,
+			"mercury": 0,
+			"ore": 0,
+			"sulfur": 0,
+			"crystal": 0,
+			"gems": 0,
+			"gold": 650
+		},
+		"fightValue": 930,
+		"aiValue": 860,
+		"growth": 7,
+		"attack": 12,
+		"defense": 13,
+		"hitPoints": 60,
+		"shots": 0,
+		"speed": 5,
+		"damage": {
+			"min": 10,
+			"max": 14
+		},
+		"spellPoints": 0,
+		"advMapAmount": {
+			"max": 12,
+			"min": 7
+		},
+		"doubleWide": false,
+		"abilities": {
+			"twoMinds": {
+				"type" : "MIND_IMMUNITY"
+			},
+			"twoHeads": {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.blind"
+			},
+			"halfControl": {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.berserk"
+			},
+			"tooHard": {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.morale"
+			},
+			"tooSoft": {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.mirth"
+			},
+			"hardToControl": {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.hypnotize"
+			}
+		},
+		"hasDoubleWeek": false,
+		"graphics": {
+			"animation" : "creatures/ettin/battle.def",
+			"map" : "creatures/ettin/adventure.def",
+			"iconSmall" : "creatures/ettin/icon.bmp",
+			"iconLarge" : "creatures/ettin/portrait.bmp",
+			"timeBetweenFidgets": 1.00,
+			"animationTime": {
+				"walk": 1,
+				"idle": 10.00,
+				"attack": 1.0
+			}
+		},
+		"sound": {
+			"attack": "OGREATTK.wav",
+			"defend": "OGREDFND.wav",
+			"killed": "OGREKILL.wav",
+			"move": "OGREMOVE.wav",
+			"wince": "OGREWNCE.wav"
+		}
+	}
+}

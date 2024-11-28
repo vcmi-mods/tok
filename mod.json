@@ -17,7 +17,8 @@
 		"1.0.3" : ["Fixed Agatha's Griffins bug"],
 		"1.0.4" : ["Update chinese translation"],
 		"1.0.5" : ["Czech translation by George King"],
-		"1.0.6" : ["New creatures added"]
+		"1.0.6" : ["New creatures added"],
+		"1.0.7" : ["Ettin added as tok creature"]
 	}, 
 	"chinese" : {
 		"name" : "Tok",

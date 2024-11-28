@@ -15,7 +15,8 @@
 		"0.6" : ["Bugbear added"],
 		"0.7" : ["Kobold added"],
 		"0.8" : ["Orangutan added"],
-		"0.9" : ["Bugbear and Bugbear Warlord added"]
+		"0.9" : ["Bugbear and Bugbear Warlord added"],
+		"0.10" : ["Ettin added; Orangutan temp removed"]
 	}, 
 	"creatures" : [
 		// "config/creatures/wendigo",
@@ -27,7 +28,8 @@
 		"config/creatures/bugbear",
 		"config/creatures/bugbear_warlord",
 		"config/creatures/kobold",
-		"config/creatures/orangutan"
+		// "config/creatures/orangutan",
+		"config/creatures/ettin"
 	],
 	"objects" : [ 
 		"config/dwellings"
