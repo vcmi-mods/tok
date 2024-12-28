@@ -1,0 +1,64 @@
+{
+  "cr_chimera": {
+    "name": {
+      "singular": "Chimera",
+      "plural": "Chimeras"
+    },
+    "level": 6,
+    "special": false,
+    "faction": "dungeon",
+    "cost": {
+      "wood": 0,
+      "mercury": 0,
+      "ore": 0,
+      "sulfur": 0,
+      "crystal": 0,
+      "gems": 0,
+      "gold": 1200
+    },
+    "fightValue": 1500,
+    "aiValue": 1500,
+    "growth": 2,
+    "attack": 19,
+    "defense": 12,
+    "hitPoints": 90,
+    "shots": 0,
+    "speed": 9,
+    "damage": {
+      "min": 16,
+      "max": 24
+    },
+    "spellPoints": 0,
+    "advMapAmount": {
+      "max": 10,
+      "min": 5
+    },
+    "doubleWide": true,
+    "abilities": {
+      "threeHeads": {
+        "type": "THREE_HEADED_ATTACK"
+      }
+    },
+    "hasDoubleWeek": false,
+    "graphics": {
+      "animation": "creatures/chimera/battle.def",
+      "map": "creatures/chimera/adventure.def",
+      "iconSmall": "creatures/chimera/icon.bmp",
+      "iconLarge": "creatures/chimera/portrait.bmp",
+      "timeBetweenFidgets": 1.0,
+      "animationTime": {
+        "walk": 1,
+        "idle": 10.0,
+        "attack": 1.0
+      }
+    },
+    "sound": {
+      "attack": "MANTATTK.wav",
+      "defend": "MANTDFND.wav",
+      "killed": "MANTKILL.wav",
+      "move": "MANTMOVE.wav",
+      "shoot": "MANTSHOT.wav",
+      "wince": "MANTWNCE.wav"
+    }
+  }
+}

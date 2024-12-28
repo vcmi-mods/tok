@@ -1,21 +1,11 @@
 {
-	"name" : "More Hota Heroes",
-	"description" : "Add more heroes with HOTA dependency",
-	"author" : "Fiorin",
-	"contact" : "http://fior.in",
-	"version" : "1.0,0",
-	"modType" : "Heroes",
-	"keepDisabled" : true,
-	"depends" : [ 
-		"hota.cove",
-		"hota.interference",
-		"ruins-town",
-		"tok.more secondary",
-		"tok.more creatures"
-	],
-	"heroes" : [
-		"config/heroes/necropolis/cintia.json",
-		
-		"config/heroes/tower/marlon.json"
-	]
+  "name": "More Hota Heroes",
+  "description": "Add more heroes with HOTA dependency",
+  "author": "Fiorin",
+  "contact": "http://fior.in",
+  "version": "1.0,0",
+  "modType": "Heroes",
+  "keepDisabled": true,
+  "depends": ["hota.cove", "hota.interference"],
+  "heroes": ["config/heroes/tower/marlon.json"]
 }

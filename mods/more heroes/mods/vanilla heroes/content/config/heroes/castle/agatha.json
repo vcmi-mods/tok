@@ -1,33 +1,33 @@
 {
-	"h_agatha" : {
-		"army" : [
-			{ "creature" : "pikeman", "max" : 25, "min" : 20 },
-			{ "creature" : "archer", "max" : 7, "min" : 4 },
-			{ "creature" : "griffin", "max" : 3, "min" : 2 }
-		],
-		"female": true,
-		"class" : "cleric",
-		"images" : {
-			"large" : "heroes/castle/agatha_l.bmp",
-			"small" : "heroes/castle/agatha_s.bmp",
-			"specialtyLarge" : "heroes/castle/agatha_sl.bmp",
-			"specialtySmall" : "heroes/castle/agatha_ss.bmp"
-		},
-		"skills" : [
-			{ "level" : "basic", "skill" : "offence" },
-			{ "level" : "basic", "skill" : "firstAid" }
-		],
-		"specialty" : {
-			"creature" : "angel"
-		},
-		"texts" : {
-			"biography" : "",
-			"name" : "Agatha",
-			"specialty" : {
-				"description" : "{Angel}\n",
-				"name" : "Angel",
-				"tooltip" : ""
-			}
-		}
-	}
+  "h_agatha": {
+    "army": [
+      { "creature": "pikeman", "max": 25, "min": 20 },
+      { "creature": "archer", "max": 7, "min": 4 },
+      { "creature": "griffin", "max": 3, "min": 2 }
+    ],
+    "female": true,
+    "class": "cleric",
+    "images": {
+      "large": "heroes/castle/agatha_l.bmp",
+      "small": "heroes/castle/agatha_s.bmp",
+      "specialtyLarge": "heroes/castle/agatha_sl.bmp",
+      "specialtySmall": "heroes/castle/agatha_ss.bmp"
+    },
+    "skills": [
+      { "level": "basic", "skill": "offence" },
+      { "level": "basic", "skill": "firstAid" }
+    ],
+    "specialty": {
+      "creature": "angel"
+    },
+    "texts": {
+      "biography": "",
+      "name": "Agatha",
+      "specialty": {
+        "description": "{Angel}\n",
+        "name": "Angel",
+        "tooltip": ""
+      }
+    }
+  }
 }

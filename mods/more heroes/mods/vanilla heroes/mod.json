@@ -1,27 +1,29 @@
 {
-	"name" : "More Vanilla Heroes",
-	"description" : "Add more heroes with no further dependencies",
-	"author" : "Fiorin",
-	"contact" : "http://fior.in",
-	"version" : "1.0,0",
-	"modType" : "Heroes",
-	"keepDisabled" : false,
-	"depends" : [
-		"tok.more heroes.neutral classes"
-	],
-	"heroes" : [
-		"config/heroes/castle/agatha.json",
-		"config/heroes/castle/elena.json",
+  "name": "More Vanilla Heroes",
+  "description": "Add more heroes with no further dependencies",
+  "author": "Fiorin",
+  "contact": "http://fior.in",
+  "version": "1.1",
+  "modType": "Heroes",
+  "keepDisabled": false,
+  "depends": ["tok.more heroes.neutral classes"],
+  "changelog": {
+    "1.0": ["Initial release"],
+    "1.1": ["Cleaning"]
+  },
+  "heroes": [
+    "config/heroes/castle/agatha.json",
+    "config/heroes/castle/elena.json",
 
-		"config/heroes/conflux/eordan.json",
-		"config/heroes/conflux/auris.json",
-		"config/heroes/conflux/hana.json",
-		"config/heroes/conflux/bel.json",
-		"config/heroes/conflux/pandora.json",
-		"config/heroes/conflux/liana.json",
+    "config/heroes/conflux/eordan.json",
+    "config/heroes/conflux/auris.json",
+    "config/heroes/conflux/hana.json",
+    "config/heroes/conflux/bel.json",
+    "config/heroes/conflux/pandora.json",
+    "config/heroes/conflux/liana.json",
 
-		"config/heroes/neutral/gre.json",
-		// "config/heroes/neutral/hernandez.json",
-		"config/heroes/neutral/third.json"
-	]
+    "config/heroes/neutral/gre.json",
+    // "config/heroes/neutral/hernandez.json",
+    "config/heroes/neutral/third.json"
+  ]
 }
